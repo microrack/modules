@@ -1,0 +1,1 @@
+All schematic models opens in http://falstad.com/circuit/ online simulator. Open link and choose `File > Open schematic file`.
