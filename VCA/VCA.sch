@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L VCA-rescue:Conn_01x03_Male-Connector J2
+L Connector:Conn_01x03_Male J2
 U 1 1 5C7DECEA
 P 1650 1700
 F 0 "J2" H 1756 1978 50  0000 C CNN
@@ -26,94 +26,83 @@ F 3 "~" H 1650 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCA-rescue:R-Device R5
+L Device:R R5
 U 1 1 5C7DEDA4
 P 3000 1400
 F 0 "R5" V 2793 1400 50  0000 C CNN
 F 1 "100K" V 2884 1400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2930 1400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2930 1400 50  0001 C CNN
 F 3 "~" H 3000 1400 50  0001 C CNN
 	1    3000 1400
 	0    1    1    0   
 $EndComp
 $Comp
-L VCA-rescue:R-Device R7
+L Device:R R7
 U 1 1 5C7DEDF1
 P 3000 1700
 F 0 "R7" V 2793 1700 50  0000 C CNN
 F 1 "100K" V 2884 1700 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2930 1700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2930 1700 50  0001 C CNN
 F 3 "~" H 3000 1700 50  0001 C CNN
 	1    3000 1700
 	0    1    1    0   
 $EndComp
 $Comp
-L VCA-rescue:R-Device R10
+L Device:R R10
 U 1 1 5C7DEE27
 P 3000 2050
 F 0 "R10" V 2793 2050 50  0000 C CNN
 F 1 "100K" V 2884 2050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2930 2050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2930 2050 50  0001 C CNN
 F 3 "~" H 3000 2050 50  0001 C CNN
 	1    3000 2050
 	0    1    1    0   
 $EndComp
 $Comp
-L VCA-rescue:R-Device R14
+L Device:R R14
 U 1 1 5C7DEE6C
 P 2550 2150
 F 0 "R14" H 2620 2196 50  0000 L CNN
 F 1 "1K" H 2620 2105 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" V 2480 2150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2480 2150 50  0001 C CNN
 F 3 "~" H 2550 2150 50  0001 C CNN
 	1    2550 2150
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCA-rescue:R-Device R13
+L Device:R R13
 U 1 1 5C7DEEB4
 P 2300 2150
 F 0 "R13" H 2370 2196 50  0000 L CNN
 F 1 "1K" H 2370 2105 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" V 2230 2150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2230 2150 50  0001 C CNN
 F 3 "~" H 2300 2150 50  0001 C CNN
 	1    2300 2150
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCA-rescue:R-Device R12
+L Device:R R12
 U 1 1 5C7DEEEA
 P 2050 2150
 F 0 "R12" H 2120 2196 50  0000 L CNN
 F 1 "1K" H 2120 2105 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" V 1980 2150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1980 2150 50  0001 C CNN
 F 3 "~" H 2050 2150 50  0001 C CNN
 	1    2050 2150
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCA-rescue:R_POT-Device RV1
+L Device:R_POT RV1
 U 1 1 5C7DEF35
 P 3750 1150
 F 0 "RV1" V 3850 1000 50  0000 C CNN
 F 1 "10K" V 3950 1000 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Bourns_PTV09A-1_Horizontal" H 3750 1150 50  0001 C CNN
+F 2 "R0409N:PTV09A4020FB103" H 3750 1150 50  0001 C CNN
 F 3 "~" H 3750 1150 50  0001 C CNN
 F 4 "R-0904N-A10K" V 3634 1150 50  0000 C CNN "Тип"
 F 5 "GAIN" V 3750 1150 50  0000 C CNN "Поле5"
 	1    3750 1150
 	0    -1   1    0   
-$EndComp
-$Comp
-L VCA-rescue:LM324A-Amplifier_Operational U1
-U 1 1 5C7DF054
-P 4200 1950
-F 0 "U1" H 4300 2100 50  0000 C CNN
-F 1 "LM324A" H 4150 1950 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4150 2050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 4250 2150 50  0001 C CNN
-	1    4200 1950
-	1    0    0    1   
 $EndComp
 Wire Wire Line
 	1850 1800 2050 1800
@@ -182,150 +171,139 @@ Wire Wire Line
 Wire Wire Line
 	3500 1150 3500 1350
 $Comp
-L VCA-rescue:R-Device R8
+L Device:R R9
 U 1 1 5C7DFA75
 P 4950 1950
-F 0 "R8" V 4743 1950 50  0000 C CNN
+F 0 "R9" V 4743 1950 50  0000 C CNN
 F 1 "24K" V 4834 1950 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4880 1950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4880 1950 50  0001 C CNN
 F 3 "~" H 4950 1950 50  0001 C CNN
 	1    4950 1950
 	0    1    1    0   
 $EndComp
 $Comp
-L VCA-rescue:R-Device R15
+L Device:R R15
 U 1 1 5C7DFAD8
 P 5200 2200
 F 0 "R15" H 5270 2246 50  0000 L CNN
 F 1 "100R" H 5270 2155 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" V 5130 2200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5130 2200 50  0001 C CNN
 F 3 "~" H 5200 2200 50  0001 C CNN
 	1    5200 2200
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCA-rescue:BC817-Transistor_BJT Q1
+L Transistor_BJT:BC817 Q1
 U 1 1 5C7DFB46
 P 5600 1950
 F 0 "Q1" H 5791 1996 50  0000 L CNN
 F 1 "BC817" H 5791 1905 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 5800 1875 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5800 1875 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 5600 1950 50  0001 L CNN
 	1    5600 1950
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCA-rescue:BC817-Transistor_BJT Q2
+L Transistor_BJT:BC817 Q2
 U 1 1 5C7DFB86
 P 6350 1950
 F 0 "Q2" H 6200 2100 50  0000 L CNN
 F 1 "BC817" H 6050 2000 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 6550 1875 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6550 1875 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 6350 1950 50  0001 L CNN
 	1    6350 1950
 	-1   0    0    -1  
 $EndComp
 $Comp
-L VCA-rescue:R-Device R2
+L Device:R R2
 U 1 1 5C7DFC39
 P 5700 1200
 F 0 "R2" H 5770 1246 50  0000 L CNN
 F 1 "24K" H 5770 1155 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" V 5630 1200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5630 1200 50  0001 C CNN
 F 3 "~" H 5700 1200 50  0001 C CNN
 	1    5700 1200
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCA-rescue:R-Device R3
+L Device:R R3
 U 1 1 5C7DFC83
 P 6250 1200
 F 0 "R3" H 6320 1246 50  0000 L CNN
 F 1 "24K" H 6320 1155 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" V 6180 1200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6180 1200 50  0001 C CNN
 F 3 "~" H 6250 1200 50  0001 C CNN
 	1    6250 1200
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCA-rescue:BC817-Transistor_BJT Q3
+L Transistor_BJT:BC817 Q3
 U 1 1 5C7DFCDE
 P 5900 2650
 F 0 "Q3" H 6091 2696 50  0000 L CNN
 F 1 "BC817" H 6091 2605 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 6100 2575 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6100 2575 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 5900 2650 50  0001 L CNN
 	1    5900 2650
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCA-rescue:BC817-Transistor_BJT Q4
+L Transistor_BJT:BC817 Q4
 U 1 1 5C7DFD4E
 P 5500 3000
 F 0 "Q4" H 5691 3046 50  0000 L CNN
 F 1 "BC817" H 5691 2955 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 5700 2925 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 2925 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 5500 3000 50  0001 L CNN
 	1    5500 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCA-rescue:LM324A-Amplifier_Operational U1
-U 2 1 5C7DFDA3
-P 7350 1600
-F 0 "U1" H 7450 1450 50  0000 C CNN
-F 1 "LM324A" H 7300 1600 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7300 1700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 7400 1800 50  0001 C CNN
-	2    7350 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCA-rescue:R-Device R1
+L Device:R R1
 U 1 1 5C7DFDFC
 P 7250 1050
 F 0 "R1" V 7043 1050 50  0000 C CNN
 F 1 "100K" V 7134 1050 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 7180 1050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7180 1050 50  0001 C CNN
 F 3 "~" H 7250 1050 50  0001 C CNN
 	1    7250 1050
 	0    1    1    0   
 $EndComp
 $Comp
-L VCA-rescue:R-Device R4
+L Device:R R4
 U 1 1 5C7DFE68
 P 8300 1300
 F 0 "R4" V 8093 1300 50  0000 C CNN
 F 1 "100R" V 8184 1300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8230 1300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8230 1300 50  0001 C CNN
 F 3 "~" H 8300 1300 50  0001 C CNN
 	1    8300 1300
 	0    1    1    0   
 $EndComp
 $Comp
-L VCA-rescue:R-Device R6
+L Device:R R6
 U 1 1 5C7DFED5
 P 8300 1600
 F 0 "R6" V 8093 1600 50  0000 C CNN
 F 1 "100R" V 8184 1600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8230 1600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8230 1600 50  0001 C CNN
 F 3 "~" H 8300 1600 50  0001 C CNN
 	1    8300 1600
 	0    1    1    0   
 $EndComp
 $Comp
-L VCA-rescue:R-Device R9
+L Device:R R8
 U 1 1 5C7DFF48
 P 8300 1900
-F 0 "R9" V 8093 1900 50  0000 C CNN
+F 0 "R8" V 8093 1900 50  0000 C CNN
 F 1 "100R" V 8184 1900 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 8230 1900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8230 1900 50  0001 C CNN
 F 3 "~" H 8300 1900 50  0001 C CNN
 	1    8300 1900
 	0    1    1    0   
 $EndComp
 $Comp
-L VCA-rescue:Conn_01x03_Male-Connector J1
+L Connector:Conn_01x03_Male J1
 U 1 1 5C7DFFC2
 P 9200 1600
 F 0 "J1" H 9172 1623 50  0000 R CNN
@@ -381,13 +359,9 @@ Wire Wire Line
 	5700 950  6000 950 
 Wire Wire Line
 	6250 950  6250 1050
-Wire Wire Line
-	7050 1500 6800 1500
 Connection ~ 5700 1500
 Wire Wire Line
 	5700 1500 5700 1750
-Wire Wire Line
-	7050 1700 6950 1700
 Connection ~ 6250 1700
 Wire Wire Line
 	6250 1700 6250 1750
@@ -403,9 +377,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 1050 7800 1600
 Wire Wire Line
-	7800 1600 7650 1600
-Wire Wire Line
-	7800 1600 8050 1600
+	7800 1600 7700 1600
 Connection ~ 7800 1600
 Wire Wire Line
 	8150 1300 8050 1300
@@ -433,19 +405,18 @@ Wire Wire Line
 Wire Wire Line
 	8950 1700 9000 1700
 $Comp
-L VCA-rescue:R-Device R11
+L Device:R R11
 U 1 1 5C7EA382
 P 6950 2100
 F 0 "R11" H 7020 2146 50  0000 L CNN
 F 1 "100K" H 7020 2055 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" V 6880 2100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6880 2100 50  0001 C CNN
 F 3 "~" H 6950 2100 50  0001 C CNN
 	1    6950 2100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6950 1950 6950 1700
-Connection ~ 6950 1700
 Wire Wire Line
 	6950 1700 6250 1700
 $Comp
@@ -559,7 +530,7 @@ $EndComp
 Wire Wire Line
 	5800 3300 5800 3550
 $Comp
-L VCA-rescue:Conn_01x03_Male-Connector J4
+L Connector:Conn_01x03_Male J4
 U 1 1 5C7F84A0
 P 1350 3100
 F 0 "J4" H 1456 3378 50  0000 C CNN
@@ -570,100 +541,89 @@ F 3 "~" H 1350 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCA-rescue:R-Device R16
+L Device:R R16
 U 1 1 5C7F854B
 P 2750 2800
 F 0 "R16" V 2543 2800 50  0000 C CNN
 F 1 "100K" V 2634 2800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2680 2800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2680 2800 50  0001 C CNN
 F 3 "~" H 2750 2800 50  0001 C CNN
 	1    2750 2800
 	0    1    1    0   
 $EndComp
 $Comp
-L VCA-rescue:R-Device R18
+L Device:R R18
 U 1 1 5C7F862D
 P 2750 3100
 F 0 "R18" V 2543 3100 50  0000 C CNN
 F 1 "100K" V 2634 3100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2680 3100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2680 3100 50  0001 C CNN
 F 3 "~" H 2750 3100 50  0001 C CNN
 	1    2750 3100
 	0    1    1    0   
 $EndComp
 $Comp
-L VCA-rescue:R-Device R19
+L Device:R R19
 U 1 1 5C7F86DA
 P 2750 3450
 F 0 "R19" V 2543 3450 50  0000 C CNN
 F 1 "100K" V 2634 3450 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 2680 3450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2680 3450 50  0001 C CNN
 F 3 "~" H 2750 3450 50  0001 C CNN
 	1    2750 3450
 	0    1    1    0   
 $EndComp
 $Comp
-L VCA-rescue:R-Device R22
+L Device:R R22
 U 1 1 5C7F8797
 P 2450 3800
 F 0 "R22" H 2520 3846 50  0000 L CNN
 F 1 "1K" H 2520 3755 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" V 2380 3800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2380 3800 50  0001 C CNN
 F 3 "~" H 2450 3800 50  0001 C CNN
 	1    2450 3800
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCA-rescue:R-Device R21
+L Device:R R21
 U 1 1 5C7F8805
 P 2200 3800
 F 0 "R21" H 2270 3846 50  0000 L CNN
 F 1 "1K" H 2270 3755 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" V 2130 3800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2130 3800 50  0001 C CNN
 F 3 "~" H 2200 3800 50  0001 C CNN
 	1    2200 3800
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCA-rescue:R-Device R20
+L Device:R R20
 U 1 1 5C7F8869
 P 1950 3800
 F 0 "R20" H 2020 3846 50  0000 L CNN
 F 1 "1K" H 2020 3755 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" V 1880 3800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1880 3800 50  0001 C CNN
 F 3 "~" H 1950 3800 50  0001 C CNN
 	1    1950 3800
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCA-rescue:LM324A-Amplifier_Operational U1
-U 3 1 5C7F88D8
-P 3550 3000
-F 0 "U1" H 3700 3150 50  0000 C CNN
-F 1 "LM324A" H 3500 3000 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3500 3100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3600 3200 50  0001 C CNN
-	3    3550 3000
-	1    0    0    1   
-$EndComp
-$Comp
-L VCA-rescue:R-Device R17
+L Device:R R17
 U 1 1 5C7F89DD
 P 4100 3000
 F 0 "R17" V 3893 3000 50  0000 C CNN
 F 1 "24K" V 3984 3000 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4030 3000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4030 3000 50  0001 C CNN
 F 3 "~" H 4100 3000 50  0001 C CNN
 	1    4100 3000
 	0    1    1    0   
 $EndComp
 $Comp
-L VCA-rescue:BC807-Transistor_BJT Q5
+L Transistor_BJT:BC807 Q5
 U 1 1 5C7F8A9F
 P 4550 3100
 F 0 "Q5" V 4878 3100 50  0000 C CNN
 F 1 "BC807" V 4787 3100 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 4750 3025 50  0001 L CIN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4750 3025 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC807.pdf" H 4550 3100 50  0001 L CNN
 	1    4550 3100
 	0    1    -1   0   
@@ -772,12 +732,12 @@ Wire Wire Line
 	4750 3000 5200 3000
 Connection ~ 5200 3000
 $Comp
-L VCA-rescue:R_POT-Device RV2
+L Device:R_POT RV2
 U 1 1 5C858EB7
 P 3250 2450
 F 0 "RV2" V 3350 2300 50  0000 C CNN
 F 1 "10K" V 3450 2300 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Bourns_PTV09A-1_Horizontal" H 3250 2450 50  0001 C CNN
+F 2 "R0409N:PTV09A4020FB103" H 3250 2450 50  0001 C CNN
 F 3 "~" H 3250 2450 50  0001 C CNN
 F 4 "R-0904N-A10K" V 3150 2450 50  0000 C CNN "Тип"
 F 5 "ENV" V 3250 2450 50  0000 C CNN "Поле5"
@@ -809,7 +769,7 @@ Wire Wire Line
 Wire Wire Line
 	3000 2450 3000 2500
 $Comp
-L VCA-rescue:Conn_01x03_Male-Connector J3
+L Connector:Conn_01x03_Male J3
 U 1 1 5C86BCB0
 P 10050 3050
 F 0 "J3" H 10022 3073 50  0000 R CNN
@@ -820,34 +780,23 @@ F 3 "~" H 10050 3050 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L VCA-rescue:LM324A-Amplifier_Operational U1
-U 5 1 5C86BD37
-P 9200 3100
-F 0 "U1" H 9158 3146 50  0000 L CNN
-F 1 "LM324A" H 9158 3055 50  0000 L CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9150 3200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9250 3300 50  0001 C CNN
-	5    9200 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCA-rescue:C-Device C1
+L Device:C C1
 U 1 1 5C86BDE2
 P 9100 2550
 F 0 "C1" H 9215 2596 50  0000 L CNN
 F 1 "0.1 uF" H 9215 2505 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 9138 2400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9138 2400 50  0001 C CNN
 F 3 "~" H 9100 2550 50  0001 C CNN
 	1    9100 2550
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCA-rescue:C-Device C2
+L Device:C C2
 U 1 1 5C86BE8A
 P 9100 3650
 F 0 "C2" H 9215 3696 50  0000 L CNN
 F 1 "0.1 uF" H 9215 3605 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 9138 3500 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9138 3500 50  0001 C CNN
 F 3 "~" H 9100 3650 50  0001 C CNN
 	1    9100 3650
 	1    0    0    -1  
@@ -862,9 +811,6 @@ Wire Wire Line
 	9750 2750 9750 2950
 Wire Wire Line
 	9750 2950 9850 2950
-Connection ~ 9100 2750
-Wire Wire Line
-	9100 2750 9100 2800
 Wire Wire Line
 	9100 3450 9750 3450
 Wire Wire Line
@@ -955,4 +901,58 @@ Text Label 9350 3400 0    50   ~ 0
 -5V
 Text Label 9350 3800 0    50   ~ 0
 GND
+Connection ~ 9100 2750
+Wire Wire Line
+	9100 2750 9100 2800
+$Comp
+L Amplifier_Operational:LM324 U1
+U 2 1 5C74A7BE
+P 7400 1600
+F 0 "U1" H 7400 1233 50  0000 C CNN
+F 1 "LM324" H 7400 1324 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 7350 1700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 7450 1800 50  0001 C CNN
+	2    7400 1600
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7800 1600 8050 1600
+Wire Wire Line
+	6800 1500 7100 1500
+Wire Wire Line
+	7100 1700 6950 1700
+Connection ~ 6950 1700
+$Comp
+L Amplifier_Operational:LM324 U1
+U 1 1 5C794BC3
+P 4200 1950
+F 0 "U1" H 4200 2317 50  0000 C CNN
+F 1 "LM324" H 4200 2226 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4150 2050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 4250 2150 50  0001 C CNN
+	1    4200 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U1
+U 3 1 5C7991A4
+P 3550 3000
+F 0 "U1" H 3550 3367 50  0000 C CNN
+F 1 "LM324" H 3550 3276 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3500 3100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3600 3200 50  0001 C CNN
+	3    3550 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U1
+U 5 1 5C79E6D4
+P 9200 3100
+F 0 "U1" H 9158 3146 50  0000 L CNN
+F 1 "LM324" H 9158 3055 50  0000 L CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9150 3200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9250 3300 50  0001 C CNN
+	5    9200 3100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

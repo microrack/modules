@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:EnvGen-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L conn:Conn_01x02_Male J1
+L Connector:Conn_01x02_Male J1
 U 1 1 5C8ABD55
 P 1100 2750
 F 0 "J1" H 1206 2928 50  0000 C CNN
@@ -26,7 +25,7 @@ F 3 "~" H 1100 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:D D2
+L Device:D D2
 U 1 1 5C8ABDE0
 P 1600 2550
 F 0 "D2" H 1600 2334 50  0000 C CNN
@@ -37,7 +36,7 @@ F 3 "~" H 1600 2550 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:D D5
+L Device:D D5
 U 1 1 5C8ABE20
 P 1600 2950
 F 0 "D5" H 1600 2734 50  0000 C CNN
@@ -48,7 +47,7 @@ F 3 "~" H 1600 2950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:R R9
+L Device:R R9
 U 1 1 5C8ABE65
 P 1950 2750
 F 0 "R9" V 1743 2750 50  0000 C CNN
@@ -59,7 +58,7 @@ F 3 "~" H 1950 2750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L transistors:BC817 Q1
+L Transistor_BJT:BC817 Q1
 U 1 1 5C8ABF37
 P 2350 2750
 F 0 "Q1" H 2541 2796 50  0000 L CNN
@@ -70,7 +69,7 @@ F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 2350 2750 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R2
+L Device:R R2
 U 1 1 5C8ABF70
 P 2450 2300
 F 0 "R2" H 2520 2346 50  0000 L CNN
@@ -81,7 +80,7 @@ F 3 "~" H 2450 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R6
+L Device:R R6
 U 1 1 5C8ABFAD
 P 2750 2450
 F 0 "R6" V 2543 2450 50  0000 C CNN
@@ -92,7 +91,7 @@ F 3 "~" H 2750 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L transistors:BC817 Q2
+L Transistor_BJT:BC817 Q2
 U 1 1 5C8AC01E
 P 3150 2750
 F 0 "Q2" H 3341 2796 50  0000 L CNN
@@ -103,7 +102,7 @@ F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 3150 2750 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R3
+L Device:R R3
 U 1 1 5C8AC061
 P 3250 2300
 F 0 "R3" H 3320 2346 50  0000 L CNN
@@ -114,7 +113,7 @@ F 3 "~" H 3250 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C1
+L Device:C C1
 U 1 1 5C8AC0A6
 P 3700 2450
 F 0 "C1" V 3448 2450 50  0000 C CNN
@@ -125,7 +124,7 @@ F 3 "~" H 3700 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:D D3
+L Device:D D3
 U 1 1 5C8AC0F8
 P 4000 2700
 F 0 "D3" V 3954 2779 50  0000 L CNN
@@ -136,7 +135,7 @@ F 3 "~" H 4000 2700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R7
+L Device:R R7
 U 1 1 5C8AC195
 P 4300 2450
 F 0 "R7" V 4093 2450 50  0000 C CNN
@@ -147,7 +146,7 @@ F 3 "~" H 4300 2450 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L transistors:BC817 Q3
+L Transistor_BJT:BC817 Q3
 U 1 1 5C8AC705
 P 4750 2750
 F 0 "Q3" H 4941 2796 50  0000 L CNN
@@ -158,7 +157,7 @@ F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 4750 2750 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R4
+L Device:R R4
 U 1 1 5C8AC758
 P 4850 2400
 F 0 "R4" H 4920 2446 50  0000 L CNN
@@ -169,7 +168,7 @@ F 3 "~" H 4850 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L linear:NE555 U1
+L Timer:NE555 U1
 U 1 1 5C8AC7D6
 P 6300 2750
 F 0 "U1" H 6050 3100 50  0000 C CNN
@@ -240,7 +239,7 @@ Wire Wire Line
 	6300 1900 6300 2350
 Connection ~ 4850 1900
 $Comp
-L device:C C2
+L Device:C C2
 U 1 1 5C8B0FDC
 P 5350 2900
 F 0 "C2" H 5465 2946 50  0000 L CNN
@@ -265,12 +264,12 @@ Connection ~ 3450 2450
 Wire Wire Line
 	3450 2450 3250 2450
 $Comp
-L device:POT RV1
+L Device:R_POT RV1
 U 1 1 5C8B3028
 P 7850 2300
 F 0 "RV1" V 8050 2550 50  0000 C CNN
 F 1 "100K" V 7950 2550 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 7850 2300 50  0001 C CNN
+F 2 "R0409N:PTV09A4020FB103" H 7850 2300 50  0001 C CNN
 F 3 "~" H 7850 2300 50  0001 C CNN
 F 4 "R-0904N-B100K" V 7750 2300 50  0000 C CNN "Тип"
 F 5 "Release" V 7850 2300 31  0000 C CNN "Поле5"
@@ -278,12 +277,12 @@ F 5 "Release" V 7850 2300 31  0000 C CNN "Поле5"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:POT RV2
+L Device:R_POT RV2
 U 1 1 5C8B3122
 P 7850 2800
 F 0 "RV2" V 8000 3100 50  0000 C CNN
 F 1 "100K" V 7900 3100 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 7850 2800 50  0001 C CNN
+F 2 "R0409N:PTV09A4020FB103" H 7850 2800 50  0001 C CNN
 F 3 "~" H 7850 2800 50  0001 C CNN
 F 4 "R-0904N-B100K" V 7750 2850 50  0000 C CNN "Тип"
 F 5 "Attack" V 7850 2800 35  0000 C CNN "Поле5"
@@ -291,12 +290,12 @@ F 5 "Attack" V 7850 2800 35  0000 C CNN "Поле5"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:POT RV4
+L Device:R_POT RV4
 U 1 1 5C8B31B5
 P 7800 3250
 F 0 "RV4" V 7700 3250 50  0000 C CNN
 F 1 "100K" V 7750 3000 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 7800 3250 50  0001 C CNN
+F 2 "R0409N:PTV09A4020FB103" H 7800 3250 50  0001 C CNN
 F 3 "~" H 7800 3250 50  0001 C CNN
 F 4 "R-0904N-B100K" V 7600 3200 50  0000 C CNN "Тип"
 F 5 "Decay" V 7800 3250 39  0000 C CNN "Поле5"
@@ -304,12 +303,12 @@ F 5 "Decay" V 7800 3250 39  0000 C CNN "Поле5"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:POT RV3
+L Device:R_POT RV3
 U 1 1 5C8B3251
 P 7350 3050
 F 0 "RV3" H 7280 3141 50  0000 R CNN
 F 1 "10K" H 7280 3050 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 7350 3050 50  0001 C CNN
+F 2 "R0409N:PTV09A4020FB103" H 7350 3050 50  0001 C CNN
 F 3 "~" H 7350 3050 50  0001 C CNN
 F 4 "R-0904N-B10K" H 7600 2800 50  0000 R CNN "Тип"
 F 5 "Sustain" V 7350 3050 31  0000 C CNN "Поле5"
@@ -317,7 +316,7 @@ F 5 "Sustain" V 7350 3050 31  0000 C CNN "Поле5"
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:D D1
+L Device:D D1
 U 1 1 5C8B32B2
 P 8200 2300
 F 0 "D1" H 8200 2516 50  0000 C CNN
@@ -328,7 +327,7 @@ F 3 "~" H 8200 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:D D4
+L Device:D D4
 U 1 1 5C8B3304
 P 8200 2800
 F 0 "D4" H 8200 3016 50  0000 C CNN
@@ -339,7 +338,7 @@ F 3 "~" H 8200 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:D D6
+L Device:D D6
 U 1 1 5C8B3360
 P 8200 3100
 F 0 "D6" H 8200 3316 50  0000 C CNN
@@ -350,7 +349,7 @@ F 3 "~" H 8200 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R5
+L Device:R R5
 U 1 1 5C8B33BD
 P 8550 2300
 F 0 "R5" V 8343 2300 50  0000 C CNN
@@ -361,7 +360,7 @@ F 3 "~" H 8550 2300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R10
+L Device:R R10
 U 1 1 5C8B3464
 P 8550 2800
 F 0 "R10" V 8343 2800 50  0000 C CNN
@@ -372,7 +371,7 @@ F 3 "~" H 8550 2800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R12
+L Device:R R12
 U 1 1 5C8B34DE
 P 8550 3100
 F 0 "R12" V 8343 3100 50  0000 C CNN
@@ -383,7 +382,7 @@ F 3 "~" H 8550 3100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R1
+L Device:R R1
 U 1 1 5C8B355B
 P 6550 1900
 F 0 "R1" V 6343 1900 50  0000 C CNN
@@ -420,7 +419,7 @@ Wire Wire Line
 	8800 3600 8800 3100
 Connection ~ 8800 3100
 $Comp
-L device:CP C3
+L Device:CP C3
 U 1 1 5C8C67E0
 P 6600 3300
 F 0 "C3" V 6650 3150 50  0000 C CNN
@@ -431,7 +430,7 @@ F 3 "~" H 6600 3300 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L linear:LM324 U2
+L Amplifier_Operational:LM324 U2
 U 1 1 5C8E0A0F
 P 9200 2950
 F 0 "U2" H 9400 3100 50  0000 C CNN
@@ -451,7 +450,7 @@ Wire Wire Line
 Wire Wire Line
 	9500 2450 9500 2950
 $Comp
-L device:R R13
+L Device:R R13
 U 1 1 5C8E7395
 P 9800 3250
 F 0 "R13" V 9593 3250 50  0000 C CNN
@@ -462,7 +461,7 @@ F 3 "~" H 9800 3250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R11
+L Device:R R11
 U 1 1 5C8E7401
 P 9800 2950
 F 0 "R11" V 10007 2950 50  0000 C CNN
@@ -473,7 +472,7 @@ F 3 "~" H 9800 2950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R8
+L Device:R R8
 U 1 1 5C8EBBC9
 P 9800 2650
 F 0 "R8" V 9593 2650 50  0000 C CNN
@@ -489,7 +488,7 @@ Connection ~ 9650 2950
 Wire Wire Line
 	9650 2950 9650 3250
 $Comp
-L conn:Conn_01x03_Male J2
+L Connector:Conn_01x03_Male J2
 U 1 1 5C8F2C0C
 P 10400 2950
 F 0 "J2" H 10372 2973 50  0000 R CNN
@@ -601,7 +600,7 @@ Wire Wire Line
 Wire Wire Line
 	7350 3250 7350 3200
 $Comp
-L conn:Conn_01x03_Male J3
+L Connector:Conn_01x03_Male J3
 U 1 1 5CA906B6
 P 2050 4350
 F 0 "J3" H 2156 4628 50  0000 C CNN
@@ -612,7 +611,7 @@ F 3 "~" H 2050 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C4
+L Device:C C4
 U 1 1 5CA907F6
 P 2900 3800
 F 0 "C4" H 3015 3846 50  0000 L CNN
@@ -623,7 +622,7 @@ F 3 "~" H 2900 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C5
+L Device:C C5
 U 1 1 5CA9086E
 P 2900 5000
 F 0 "C5" H 3015 5046 50  0000 L CNN
@@ -678,18 +677,12 @@ Wire Wire Line
 	2350 4250 2350 4050
 Wire Wire Line
 	2350 4050 2900 4050
-Connection ~ 2900 4050
-Wire Wire Line
-	2900 4050 2900 4100
-Wire Wire Line
-	2900 4700 2900 4800
 Wire Wire Line
 	2250 4450 2350 4450
 Wire Wire Line
 	2350 4450 2350 4800
 Wire Wire Line
 	2350 4800 2900 4800
-Connection ~ 2900 4800
 Wire Wire Line
 	2900 4800 2900 4850
 Wire Wire Line
@@ -748,16 +741,5 @@ Wire Wire Line
 	5650 2300 7700 2300
 Wire Wire Line
 	6300 3150 6300 3300
-Wire Wire Line
-	9100 2650 9100 2150
-Wire Wire Line
-	9100 2150 10850 2150
-Wire Wire Line
-	10850 2150 10850 4100
-Wire Wire Line
-	10850 4100 2900 4100
-Wire Wire Line
-	2900 4700 9100 4700
-Wire Wire Line
-	9100 4700 9100 3250
+Connection ~ 9500 2950
 $EndSCHEMATC

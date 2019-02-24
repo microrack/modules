@@ -153,21 +153,28 @@ X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Switch_SW_SPDT
+# M2013SS1W03_Switch
 #
-DEF Switch_SW_SPDT SW 0 0 Y N 1 F N
-F0 "SW" 0 170 50 H V C CNN
-F1 "Switch_SW_SPDT" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+DEF M2013SS1W03_Switch S 0 30 Y Y 1 F N
+F0 "S" 650 300 50 H V L CNN
+F1 "M2013SS1W03_Switch" 650 200 50 H V L CNN
+F2 "M2018SD3G03" 1250 50 50 V I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/M2013SS1W03.pdf" 650 0 50 H I L CNN
+F4 "NKK SWITCHES - M2013SS1W03 - TOGGLE SWITCH, SPDT, VERT, ON-OFF-ON" 650 -100 50 H I L CNN "Description"
+F5 "18" 650 -200 50 H I L CNN "Height"
+F6 "NKK Switches" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "M2013SS1W03" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "70192098" 650 -700 50 H I L CNN "Allied_Number"
+F9 "https://www.alliedelec.com/nkk-switches-m2013ss1w03/70192098/" 650 -800 50 H I L CNN "Allied Price/Stock"
+F10 "633-M201303" 650 -900 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.com/Search/Refine.aspx?Keyword=633-M201303" 650 -1000 50 H I L CNN "Mouser Price/Stock"
 DRAW
-C -80 0 20 0 0 0 N
-C 80 -100 20 0 0 0 N
-C 80 100 20 0 1 0 N
-P 2 0 1 0 -60 10 65 90 N
-X A 1 200 100 100 L 50 50 1 1 P
-X B 2 -200 0 100 R 50 50 1 1 P
-X C 3 200 -100 100 L 50 50 1 1 P
+P 2 0 1 0 500 0 350 0 N
+P 2 0 1 0 500 100 350 100 N
+P 3 0 1 0 200 0 300 0 400 100 N
+X 2 2 700 0 200 L 50 50 0 0 B
+X 3 3 0 0 200 R 50 50 0 0 B
+X 1 1 700 100 200 L 50 50 1 0 B
 ENDDRAW
 ENDDEF
 #
