@@ -1,4 +1,3 @@
 (fp_lib_table
-  (lib (name M2013SS1W03)(type Legacy)(uri ${KIPRJMOD}/M2013SS1W03.mod)(options "")(descr ""))
-  (lib (name R0409N)(type Legacy)(uri ${KIPRJMOD}/R0409N.mod)(options "")(descr ""))
+  (lib (name footprint)(type KiCad)(uri /home/maxx/Project/work/modules/footprint)(options "")(descr ""))
 )
