@@ -922,7 +922,7 @@ Wire Wire Line
 	7100 1700 6950 1700
 Connection ~ 6950 1700
 $Comp
-L Amplifier_Operational:LM324 U1
+L uRack:LM324 U1
 U 1 1 5C794BC3
 P 4200 1950
 F 0 "U1" H 4200 2317 50  0000 C CNN

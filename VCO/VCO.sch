@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:VCO-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -301,7 +300,7 @@ Wire Wire Line
 Wire Wire Line
 	4400 1500 4350 1500
 $Comp
-L Transistor_BJT:BC817 Q1
+L uRack:BC817 Q1
 U 1 1 5C6B6D11
 P 5200 1500
 F 0 "Q1" H 5391 1546 50  0000 L CNN
@@ -577,7 +576,7 @@ Connection ~ 1650 4950
 Wire Wire Line
 	1650 3900 1650 4950
 $Comp
-L Device:C C6
+L uRack:C C6
 U 1 1 5C6E5337
 P 2950 4450
 F 0 "C6" V 2698 4450 50  0000 C CNN
