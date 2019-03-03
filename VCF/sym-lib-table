@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name uRack)(type Legacy)(uri ${KIPRJMOD}/../libraries/uRack.lib)(options "")(descr ""))
+)

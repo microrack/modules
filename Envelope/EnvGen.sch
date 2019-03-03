@@ -1,0 +1,751 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "uRack_EnvGen"
+Date "2019-02-19"
+Rev "1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L uRack:Conn_01x02_Male J1
+U 1 1 5C8ABD55
+P 1100 2750
+F 0 "J1" H 1206 2928 50  0000 C CNN
+F 1 "Input" H 1206 2837 50  0000 C CNN
+F 2 "footprint:pls1x02" H 1100 2750 50  0001 C CNN
+F 3 "~" H 1100 2750 50  0001 C CNN
+	1    1100 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L uRack:D D2
+U 1 1 5C8ABDE0
+P 1600 2550
+F 0 "D2" H 1600 2334 50  0000 C CNN
+F 1 "D" H 1600 2425 50  0000 C CNN
+F 2 "footprint:d0603" H 1600 2550 50  0001 C CNN
+F 3 "~" H 1600 2550 50  0001 C CNN
+	1    1600 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L uRack:D D5
+U 1 1 5C8ABE20
+P 1600 2950
+F 0 "D5" H 1600 2734 50  0000 C CNN
+F 1 "D" H 1600 2825 50  0000 C CNN
+F 2 "footprint:d0603" H 1600 2950 50  0001 C CNN
+F 3 "~" H 1600 2950 50  0001 C CNN
+	1    1600 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L uRack:R R9
+U 1 1 5C8ABE65
+P 1950 2750
+F 0 "R9" V 1743 2750 50  0000 C CNN
+F 1 "10K" V 1834 2750 50  0000 C CNN
+F 2 "footprint:r0603" V 1880 2750 50  0001 C CNN
+F 3 "~" H 1950 2750 50  0001 C CNN
+	1    1950 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L uRack:BC817 Q1
+U 1 1 5C8ABF37
+P 2350 2750
+F 0 "Q1" H 2541 2796 50  0000 L CNN
+F 1 "BC817" H 2541 2705 50  0000 L CNN
+F 2 "footprint:SOT-23" H 2550 2675 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 2350 2750 50  0001 L CNN
+	1    2350 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L uRack:R R2
+U 1 1 5C8ABF70
+P 2450 2300
+F 0 "R2" H 2520 2346 50  0000 L CNN
+F 1 "10K" H 2520 2255 50  0000 L CNN
+F 2 "footprint:r0603" V 2380 2300 50  0001 C CNN
+F 3 "~" H 2450 2300 50  0001 C CNN
+	1    2450 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L uRack:R R6
+U 1 1 5C8ABFAD
+P 2750 2450
+F 0 "R6" V 2543 2450 50  0000 C CNN
+F 1 "R" V 2634 2450 50  0000 C CNN
+F 2 "footprint:r0603" V 2680 2450 50  0001 C CNN
+F 3 "~" H 2750 2450 50  0001 C CNN
+	1    2750 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L uRack:BC817 Q2
+U 1 1 5C8AC01E
+P 3150 2750
+F 0 "Q2" H 3341 2796 50  0000 L CNN
+F 1 "BC817" H 3341 2705 50  0000 L CNN
+F 2 "footprint:SOT-23" H 3350 2675 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 3150 2750 50  0001 L CNN
+	1    3150 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L uRack:R R3
+U 1 1 5C8AC061
+P 3250 2300
+F 0 "R3" H 3320 2346 50  0000 L CNN
+F 1 "10K" H 3320 2255 50  0000 L CNN
+F 2 "footprint:r0603" V 3180 2300 50  0001 C CNN
+F 3 "~" H 3250 2300 50  0001 C CNN
+	1    3250 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L uRack:C C1
+U 1 1 5C8AC0A6
+P 3700 2450
+F 0 "C1" V 3448 2450 50  0000 C CNN
+F 1 "10 nF" V 3539 2450 50  0000 C CNN
+F 2 "footprint:c0603" H 3738 2300 50  0001 C CNN
+F 3 "~" H 3700 2450 50  0001 C CNN
+	1    3700 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L uRack:D D3
+U 1 1 5C8AC0F8
+P 4000 2700
+F 0 "D3" V 3954 2779 50  0000 L CNN
+F 1 "D" V 4045 2779 50  0000 L CNN
+F 2 "footprint:d0603" H 4000 2700 50  0001 C CNN
+F 3 "~" H 4000 2700 50  0001 C CNN
+	1    4000 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L uRack:R R7
+U 1 1 5C8AC195
+P 4300 2450
+F 0 "R7" V 4093 2450 50  0000 C CNN
+F 1 "10K" V 4184 2450 50  0000 C CNN
+F 2 "footprint:r0603" V 4230 2450 50  0001 C CNN
+F 3 "~" H 4300 2450 50  0001 C CNN
+	1    4300 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L uRack:BC817 Q3
+U 1 1 5C8AC705
+P 4750 2750
+F 0 "Q3" H 4941 2796 50  0000 L CNN
+F 1 "BC817" H 4941 2705 50  0000 L CNN
+F 2 "footprint:SOT-23" H 4950 2675 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC817.pdf" H 4750 2750 50  0001 L CNN
+	1    4750 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L uRack:R R4
+U 1 1 5C8AC758
+P 4850 2400
+F 0 "R4" H 4920 2446 50  0000 L CNN
+F 1 "10K" H 4920 2355 50  0000 L CNN
+F 2 "footprint:r0603" V 4780 2400 50  0001 C CNN
+F 3 "~" H 4850 2400 50  0001 C CNN
+	1    4850 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L uRack:LM555 U1
+U 1 1 5C8AC7D6
+P 6300 2750
+F 0 "U1" H 6050 3100 50  0000 C CNN
+F 1 "NE555" H 6550 3100 50  0000 C CNN
+F 2 "footprint:soic-8" H 6300 2750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" H 6300 2750 50  0001 C CNN
+	1    6300 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 2750 1400 2750
+Wire Wire Line
+	1400 2750 1400 2550
+Wire Wire Line
+	1400 2550 1450 2550
+Wire Wire Line
+	1300 2850 1400 2850
+Wire Wire Line
+	1400 2850 1400 2950
+Wire Wire Line
+	1400 2950 1450 2950
+Wire Wire Line
+	2450 2450 2600 2450
+Wire Wire Line
+	2450 2450 2450 2550
+Wire Wire Line
+	2950 2450 2950 2750
+Wire Wire Line
+	3250 2450 3250 2550
+Wire Wire Line
+	4000 2550 4000 2450
+Connection ~ 4000 2450
+Wire Wire Line
+	4000 2450 4150 2450
+Wire Wire Line
+	4550 2450 4550 2750
+Wire Wire Line
+	2450 1900 3250 1900
+Wire Wire Line
+	4850 1900 4850 2250
+Connection ~ 3250 1900
+Wire Wire Line
+	3250 1900 4850 1900
+Wire Wire Line
+	4850 2950 4850 3150
+Wire Wire Line
+	4850 3150 4000 3150
+Wire Wire Line
+	2450 3150 2450 2950
+Wire Wire Line
+	3250 2950 3250 3150
+Connection ~ 3250 3150
+Wire Wire Line
+	3250 3150 2450 3150
+Connection ~ 4000 3150
+Wire Wire Line
+	4000 3150 3250 3150
+Wire Wire Line
+	4850 2550 5800 2550
+Wire Wire Line
+	6300 3050 6300 3150
+Wire Wire Line
+	6300 3150 5350 3150
+Connection ~ 4850 3150
+Wire Wire Line
+	4850 1900 6300 1900
+Wire Wire Line
+	6300 1900 6300 2350
+Connection ~ 4850 1900
+$Comp
+L uRack:C C2
+U 1 1 5C8B0FDC
+P 5350 2900
+F 0 "C2" H 5465 2946 50  0000 L CNN
+F 1 "10 nF" H 5465 2855 50  0000 L CNN
+F 2 "footprint:c0603" H 5388 2750 50  0001 C CNN
+F 3 "~" H 5350 2900 50  0001 C CNN
+	1    5350 2900
+	1    0    0    -1  
+$EndComp
+Connection ~ 5350 3150
+Wire Wire Line
+	5350 3150 4850 3150
+Wire Wire Line
+	3450 2450 3450 1750
+Wire Wire Line
+	3450 1750 5650 1750
+Wire Wire Line
+	5650 1750 5650 2300
+Wire Wire Line
+	5650 2950 5800 2950
+Connection ~ 3450 2450
+Wire Wire Line
+	3450 2450 3250 2450
+$Comp
+L uRack:R_POT RV1
+U 1 1 5C8B3028
+P 7850 2300
+F 0 "RV1" V 8050 2550 50  0000 C CNN
+F 1 "100K" V 7950 2550 50  0000 C CNN
+F 2 "footprint:R0904N" H 7850 2300 50  0001 C CNN
+F 3 "~" H 7850 2300 50  0001 C CNN
+F 4 "R-0904N-B100K" V 7750 2300 50  0000 C CNN "Тип"
+F 5 "Release" V 7850 2300 31  0000 C CNN "Поле5"
+	1    7850 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L uRack:R_POT RV2
+U 1 1 5C8B3122
+P 7850 2800
+F 0 "RV2" V 8000 3100 50  0000 C CNN
+F 1 "100K" V 7900 3100 50  0000 C CNN
+F 2 "footprint:R0904N" H 7850 2800 50  0001 C CNN
+F 3 "~" H 7850 2800 50  0001 C CNN
+F 4 "R-0904N-B100K" V 7750 2850 50  0000 C CNN "Тип"
+F 5 "Attack" V 7850 2800 35  0000 C CNN "Поле5"
+	1    7850 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L uRack:R_POT RV4
+U 1 1 5C8B31B5
+P 7800 3250
+F 0 "RV4" V 7700 3250 50  0000 C CNN
+F 1 "100K" V 7750 3000 50  0000 C CNN
+F 2 "footprint:R0904N" H 7800 3250 50  0001 C CNN
+F 3 "~" H 7800 3250 50  0001 C CNN
+F 4 "R-0904N-B100K" V 7600 3200 50  0000 C CNN "Тип"
+F 5 "Decay" V 7800 3250 39  0000 C CNN "Поле5"
+	1    7800 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L uRack:R_POT RV3
+U 1 1 5C8B3251
+P 7350 3050
+F 0 "RV3" H 7280 3141 50  0000 R CNN
+F 1 "10K" H 7280 3050 50  0000 R CNN
+F 2 "footprint:R0904N" H 7350 3050 50  0001 C CNN
+F 3 "~" H 7350 3050 50  0001 C CNN
+F 4 "R-0904N-B10K" H 7600 2800 50  0000 R CNN "Тип"
+F 5 "Sustain" V 7350 3050 31  0000 C CNN "Поле5"
+	1    7350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L uRack:D D1
+U 1 1 5C8B32B2
+P 8200 2300
+F 0 "D1" H 8200 2516 50  0000 C CNN
+F 1 "D" H 8200 2425 50  0000 C CNN
+F 2 "footprint:d0603" H 8200 2300 50  0001 C CNN
+F 3 "~" H 8200 2300 50  0001 C CNN
+	1    8200 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L uRack:D D4
+U 1 1 5C8B3304
+P 8200 2800
+F 0 "D4" H 8200 3016 50  0000 C CNN
+F 1 "D" H 8200 2925 50  0000 C CNN
+F 2 "footprint:d0603" H 8200 2800 50  0001 C CNN
+F 3 "~" H 8200 2800 50  0001 C CNN
+	1    8200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L uRack:D D6
+U 1 1 5C8B3360
+P 8200 3100
+F 0 "D6" H 8200 3316 50  0000 C CNN
+F 1 "D" H 8200 3225 50  0000 C CNN
+F 2 "footprint:d0603" H 8200 3100 50  0001 C CNN
+F 3 "~" H 8200 3100 50  0001 C CNN
+	1    8200 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L uRack:R R5
+U 1 1 5C8B33BD
+P 8550 2300
+F 0 "R5" V 8343 2300 50  0000 C CNN
+F 1 "100R" V 8434 2300 50  0000 C CNN
+F 2 "footprint:r0603" V 8480 2300 50  0001 C CNN
+F 3 "~" H 8550 2300 50  0001 C CNN
+	1    8550 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L uRack:R R10
+U 1 1 5C8B3464
+P 8550 2800
+F 0 "R10" V 8343 2800 50  0000 C CNN
+F 1 "100R" V 8434 2800 50  0000 C CNN
+F 2 "footprint:r0603" V 8480 2800 50  0001 C CNN
+F 3 "~" H 8550 2800 50  0001 C CNN
+	1    8550 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L uRack:R R12
+U 1 1 5C8B34DE
+P 8550 3100
+F 0 "R12" V 8343 3100 50  0000 C CNN
+F 1 "100R" V 8434 3100 50  0000 C CNN
+F 2 "footprint:r0603" V 8480 3100 50  0001 C CNN
+F 3 "~" H 8550 3100 50  0001 C CNN
+	1    8550 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L uRack:R R1
+U 1 1 5C8B355B
+P 6550 1900
+F 0 "R1" V 6343 1900 50  0000 C CNN
+F 1 "10K" V 6434 1900 50  0000 C CNN
+F 2 "footprint:r0603" V 6480 1900 50  0001 C CNN
+F 3 "~" H 6550 1900 50  0001 C CNN
+	1    6550 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7350 1900 7350 2900
+Connection ~ 6300 1900
+Wire Wire Line
+	7150 2550 7150 2800
+Wire Wire Line
+	7150 2800 7700 2800
+Wire Wire Line
+	8050 3100 8050 3250
+Wire Wire Line
+	8050 2650 8050 2800
+Wire Wire Line
+	8050 2150 8050 2300
+Wire Wire Line
+	8800 2300 8800 2800
+Connection ~ 8800 2800
+Wire Wire Line
+	8800 2800 8800 3050
+Connection ~ 5650 2300
+Wire Wire Line
+	5650 2300 5650 2950
+Wire Wire Line
+	6950 3600 8800 3600
+Wire Wire Line
+	8800 3600 8800 3100
+Connection ~ 8800 3100
+$Comp
+L uRack:CP C3
+U 1 1 5C8C67E0
+P 6600 3300
+F 0 "C3" V 6650 3150 50  0000 C CNN
+F 1 "22x25v" V 6800 3300 50  0000 C CNN
+F 2 "footprint:cp_5x2_5" H 6638 3150 50  0001 C CNN
+F 3 "~" H 6600 3300 50  0001 C CNN
+	1    6600 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L uRack:LM324 U2
+U 1 1 5C8E0A0F
+P 9200 2950
+F 0 "U2" H 9400 3100 50  0000 C CNN
+F 1 "LM324A" H 9150 2950 50  0000 C CNN
+F 2 "footprint:soic-14" H 9150 3050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9250 3150 50  0001 C CNN
+	1    9200 2950
+	1    0    0    1   
+$EndComp
+Connection ~ 8800 3050
+Wire Wire Line
+	8800 3050 8800 3100
+Wire Wire Line
+	8900 2850 8900 2450
+Wire Wire Line
+	8900 2450 9500 2450
+Wire Wire Line
+	9500 2450 9500 2950
+$Comp
+L uRack:R R13
+U 1 1 5C8E7395
+P 9800 3250
+F 0 "R13" V 9593 3250 50  0000 C CNN
+F 1 "R" V 9684 3250 50  0000 C CNN
+F 2 "footprint:r0603" V 9730 3250 50  0001 C CNN
+F 3 "~" H 9800 3250 50  0001 C CNN
+	1    9800 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L uRack:R R11
+U 1 1 5C8E7401
+P 9800 2950
+F 0 "R11" V 10007 2950 50  0000 C CNN
+F 1 "R" V 9916 2950 50  0000 C CNN
+F 2 "footprint:r0603" V 9730 2950 50  0001 C CNN
+F 3 "~" H 9800 2950 50  0001 C CNN
+	1    9800 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L uRack:R R8
+U 1 1 5C8EBBC9
+P 9800 2650
+F 0 "R8" V 9593 2650 50  0000 C CNN
+F 1 "R" V 9684 2650 50  0000 C CNN
+F 2 "footprint:r0603" V 9730 2650 50  0001 C CNN
+F 3 "~" H 9800 2650 50  0001 C CNN
+	1    9800 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9650 2950 9650 2650
+Connection ~ 9650 2950
+Wire Wire Line
+	9650 2950 9650 3250
+$Comp
+L uRack:Conn_01x03_Male J2
+U 1 1 5C8F2C0C
+P 10400 2950
+F 0 "J2" H 10372 2973 50  0000 R CNN
+F 1 "Output" H 10372 2882 50  0000 R CNN
+F 2 "footprint:pls1x03" H 10400 2950 50  0001 C CNN
+F 3 "~" H 10400 2950 50  0001 C CNN
+	1    10400 2950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 2550 1750 2750
+Connection ~ 1750 2750
+Wire Wire Line
+	1750 2750 1750 2950
+Wire Wire Line
+	1800 2750 1750 2750
+Wire Wire Line
+	2150 2750 2100 2750
+Wire Wire Line
+	2450 1900 2450 2150
+Wire Wire Line
+	2900 2450 2950 2450
+Wire Wire Line
+	3250 1900 3250 2150
+Wire Wire Line
+	3550 2450 3450 2450
+Wire Wire Line
+	3850 2450 4000 2450
+Wire Wire Line
+	4000 2850 4000 3150
+Wire Wire Line
+	4450 2450 4550 2450
+Wire Wire Line
+	5350 3050 5350 3150
+Wire Wire Line
+	5350 2750 5800 2750
+Wire Wire Line
+	6800 2950 6950 2950
+Wire Wire Line
+	6800 2550 7150 2550
+Wire Wire Line
+	6400 1900 6300 1900
+Wire Wire Line
+	6700 1900 7350 1900
+Wire Wire Line
+	6950 2950 6950 3300
+Wire Wire Line
+	6300 3300 6450 3300
+Connection ~ 6300 3150
+Wire Wire Line
+	6950 3300 6750 3300
+Connection ~ 6950 3300
+Wire Wire Line
+	6950 3300 6950 3600
+Wire Wire Line
+	7600 3250 7600 3050
+Wire Wire Line
+	7600 3050 7500 3050
+Wire Wire Line
+	7600 3250 7650 3250
+Wire Wire Line
+	7800 3100 8050 3100
+Wire Wire Line
+	7950 3250 8050 3250
+Wire Wire Line
+	8400 3100 8350 3100
+Wire Wire Line
+	8700 3100 8800 3100
+Wire Wire Line
+	7850 2650 8050 2650
+Wire Wire Line
+	8000 2800 8050 2800
+Wire Wire Line
+	8350 2800 8400 2800
+Wire Wire Line
+	8700 2800 8800 2800
+Wire Wire Line
+	7850 2150 8050 2150
+Wire Wire Line
+	8000 2300 8050 2300
+Wire Wire Line
+	8350 2300 8400 2300
+Wire Wire Line
+	8700 2300 8800 2300
+Wire Wire Line
+	8900 3050 8800 3050
+Wire Wire Line
+	9500 2950 9650 2950
+Wire Wire Line
+	9950 2650 10150 2650
+Wire Wire Line
+	10150 2650 10150 2850
+Wire Wire Line
+	10150 2850 10200 2850
+Wire Wire Line
+	9950 2950 10200 2950
+Wire Wire Line
+	9950 3250 10150 3250
+Wire Wire Line
+	10150 3250 10150 3050
+Wire Wire Line
+	10150 3050 10200 3050
+Wire Wire Line
+	6800 2750 7050 2750
+Wire Wire Line
+	7050 2750 7050 3250
+Wire Wire Line
+	7050 3250 7350 3250
+Wire Wire Line
+	7350 3250 7350 3200
+$Comp
+L uRack:Conn_01x03_Male J3
+U 1 1 5CA906B6
+P 2050 4350
+F 0 "J3" H 2156 4628 50  0000 C CNN
+F 1 "Power" H 2156 4537 50  0000 C CNN
+F 2 "footprint:pls1x03" H 2050 4350 50  0001 C CNN
+F 3 "~" H 2050 4350 50  0001 C CNN
+	1    2050 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L uRack:C C4
+U 1 1 5CA907F6
+P 2900 3800
+F 0 "C4" H 3015 3846 50  0000 L CNN
+F 1 "0.1 uF" H 3015 3755 50  0000 L CNN
+F 2 "footprint:c0603" H 2938 3650 50  0001 C CNN
+F 3 "~" H 2900 3800 50  0001 C CNN
+	1    2900 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L uRack:C C5
+U 1 1 5CA9086E
+P 2900 5000
+F 0 "C5" H 3015 5046 50  0000 L CNN
+F 1 "0.1 uF" H 3015 4955 50  0000 L CNN
+F 2 "footprint:c0603" H 2938 4850 50  0001 C CNN
+F 3 "~" H 2900 5000 50  0001 C CNN
+	1    2900 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L uRack:GNDREF #PWR02
+U 1 1 5CA9093F
+P 4850 3250
+F 0 "#PWR02" H 4850 3000 50  0001 C CNN
+F 1 "GNDREF" H 4855 3077 50  0001 C CNN
+F 2 "" H 4850 3250 50  0001 C CNN
+F 3 "" H 4850 3250 50  0001 C CNN
+	1    4850 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L uRack:+5V #PWR01
+U 1 1 5CA909B2
+P 6300 1750
+F 0 "#PWR01" H 6300 1600 50  0001 C CNN
+F 1 "+5V" H 6315 1923 50  0000 C CNN
+F 2 "" H 6300 1750 50  0001 C CNN
+F 3 "" H 6300 1750 50  0001 C CNN
+	1    6300 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L uRack:-5V #PWR04
+U 1 1 5CA90A25
+P 2350 4900
+F 0 "#PWR04" H 2350 5000 50  0001 C CNN
+F 1 "-5V" H 2365 5073 50  0000 C CNN
+F 2 "" H 2350 4900 50  0001 C CNN
+F 3 "" H 2350 4900 50  0001 C CNN
+	1    2350 4900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4850 3250 4850 3150
+Wire Wire Line
+	6300 1750 6300 1900
+Wire Wire Line
+	2900 3950 2900 4050
+Wire Wire Line
+	2250 4250 2350 4250
+Wire Wire Line
+	2350 4250 2350 4050
+Wire Wire Line
+	2350 4050 2900 4050
+Wire Wire Line
+	2250 4450 2350 4450
+Wire Wire Line
+	2350 4450 2350 4800
+Wire Wire Line
+	2350 4800 2900 4800
+Wire Wire Line
+	2900 4800 2900 4850
+Wire Wire Line
+	2250 4350 2600 4350
+Wire Wire Line
+	2600 4350 2600 3650
+Wire Wire Line
+	2600 3650 2900 3650
+Wire Wire Line
+	2600 4350 2600 5150
+Wire Wire Line
+	2600 5150 2900 5150
+Connection ~ 2600 4350
+Wire Wire Line
+	2350 4900 2350 4800
+Connection ~ 2350 4800
+$Comp
+L uRack:+5V #PWR03
+U 1 1 5CAADBDE
+P 2350 3950
+F 0 "#PWR03" H 2350 3800 50  0001 C CNN
+F 1 "+5V" H 2365 4123 50  0000 C CNN
+F 2 "" H 2350 3950 50  0001 C CNN
+F 3 "" H 2350 3950 50  0001 C CNN
+	1    2350 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 3950 2350 4050
+Connection ~ 2350 4050
+$Comp
+L uRack:GNDREF #PWR05
+U 1 1 5CAB1AB1
+P 2600 5250
+F 0 "#PWR05" H 2600 5000 50  0001 C CNN
+F 1 "GNDREF" H 2605 5077 50  0001 C CNN
+F 2 "" H 2600 5250 50  0001 C CNN
+F 3 "" H 2600 5250 50  0001 C CNN
+	1    2600 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 5250 2600 5150
+Connection ~ 2600 5150
+Text Label 1350 2500 0    50   ~ 0
+IN_1
+Text Label 1350 3050 0    50   ~ 0
+IN_2
+Text Label 10050 2600 0    50   ~ 0
+OUT_1
+Text Label 10000 2950 0    50   ~ 0
+OUT_2
+Text Label 10100 3350 0    50   ~ 0
+OUT_3
+Wire Wire Line
+	5650 2300 7700 2300
+Wire Wire Line
+	6300 3150 6300 3300
+Connection ~ 8050 2300
+Connection ~ 8050 2800
+Connection ~ 8050 3100
+Connection ~ 9500 2950
+Connection ~ 3250 2450
+Connection ~ 2450 2450
+Connection ~ 4850 2550
+$EndSCHEMATC
