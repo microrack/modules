@@ -164,8 +164,8 @@
     (add_net "Net-(S1-Pad1)")
   )
 
-  (module footprint:c0603 (layer F.Cu) (tedit 5B301BBE) (tstamp 5C7AA2B9)
-    (at 131.515001 100.085001)
+  (module footprint:c0603 (layer F.Cu) (tedit 5B301BBE) (tstamp 5C7E8749)
+    (at 131.515001 88.655001)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5C7F99E3)
@@ -193,15 +193,15 @@
       (net 1 +5V))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 2 GNDREF))
-    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:c0603 (layer F.Cu) (tedit 5B301BBE) (tstamp 5C7AA2CA)
-    (at 162.455001 97.985001)
+  (module footprint:c0603 (layer F.Cu) (tedit 5B301BBE) (tstamp 5C7E875A)
+    (at 162.455001 86.555001)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5C7F9A6F)
@@ -229,15 +229,15 @@
       (net 2 GNDREF))
     (pad 2 smd roundrect (at 0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 1 +5V))
-    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:c0603 (layer F.Cu) (tedit 5B301BBE) (tstamp 5C7AA2DB)
-    (at 177.595001 80.935001)
+  (module footprint:c0603 (layer F.Cu) (tedit 5B301BBE) (tstamp 5C7E876B)
+    (at 177.595001 69.505001)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5C6C1557)
@@ -265,15 +265,15 @@
       (net 3 "Net-(C3-Pad1)"))
     (pad 2 smd roundrect (at 0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 4 "Net-(C3-Pad2)"))
-    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:c0603 (layer F.Cu) (tedit 5B301BBE) (tstamp 5C7AA2EC)
-    (at 174.585001 83.595001)
+  (module footprint:c0603 (layer F.Cu) (tedit 5B301BBE) (tstamp 5C7E877C)
+    (at 174.585001 72.165001)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5C7F993F)
@@ -301,15 +301,15 @@
       (net 5 -5V))
     (pad 2 smd roundrect (at 0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 2 GNDREF))
-    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:c0603 (layer F.Cu) (tedit 5B301BBE) (tstamp 5C7AA2FD)
-    (at 170.365001 87.775001)
+  (module footprint:c0603 (layer F.Cu) (tedit 5B301BBE) (tstamp 5C7E878D)
+    (at 170.365001 76.345001)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5C811C8B)
@@ -337,15 +337,15 @@
       (net 2 GNDREF))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 5 -5V))
-    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:c0603 (layer F.Cu) (tedit 5B301BBE) (tstamp 5C7AA30E)
-    (at 131.515001 98.575001)
+  (module footprint:c0603 (layer F.Cu) (tedit 5B301BBE) (tstamp 5C7E879E)
+    (at 131.515001 87.145001)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5C6E5337)
@@ -373,15 +373,15 @@
       (net 6 "Net-(C6-Pad2)"))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 7 "Net-(C6-Pad1)"))
-    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/C_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:pls1x03 (layer F.Cu) (tedit 59FED5CC) (tstamp 5C7AA325)
-    (at 164.025001 88.845001)
+  (module footprint:pls1x03 (layer F.Cu) (tedit 59FED5CC) (tstamp 5C7E87B5)
+    (at 164.025001 77.415001)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (path /5C6B1995)
@@ -415,15 +415,15 @@
       (net 9 /IN_2))
     (pad 3 thru_hole oval (at 0 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 10 /IN_3))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/PinHeader_1x03_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:pls1x03 (layer F.Cu) (tedit 59FED5CC) (tstamp 5C7AA33C)
-    (at 174.905001 72.945001)
+  (module footprint:pls1x03 (layer F.Cu) (tedit 59FED5CC) (tstamp 5C7E87CC)
+    (at 174.905001 61.515001)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (path /5C7DD02C)
@@ -457,15 +457,15 @@
       (net 2 GNDREF))
     (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/PinHeader_1x03_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:pls1x02 (layer F.Cu) (tedit 59FED5CC) (tstamp 5C7AA352)
-    (at 137.175001 94.295001)
+  (module footprint:pls1x02 (layer F.Cu) (tedit 59FED5CC) (tstamp 5C7E87E2)
+    (at 137.175001 82.865001)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /5C7C57F9)
@@ -497,15 +497,15 @@
       (net 11 "Net-(J3-Pad1)"))
     (pad 2 thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 12 "Net-(J3-Pad2)"))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/PinHeader_1x02_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:pls1x01 (layer F.Cu) (tedit 59FED5CC) (tstamp 5C7AA367)
-    (at 140.825001 94.295001)
+  (module footprint:pls1x01 (layer F.Cu) (tedit 59FED5CC) (tstamp 5C7E87F7)
+    (at 140.825001 82.865001)
     (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x01 2.54mm single row")
     (path /5C76364C)
@@ -535,15 +535,15 @@
     )
     (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 13 /PW))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x01_P2.54mm_Vertical.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/PinHeader_1x01_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:SOT-23 (layer F.Cu) (tedit 5A02FF57) (tstamp 5C7AA37C)
-    (at 144.175001 98.145001)
+  (module footprint:SOT-23 (layer F.Cu) (tedit 5A02FF57) (tstamp 5C7E880C)
+    (at 144.175001 86.715001)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /5C6B6D11)
@@ -576,15 +576,15 @@
       (net 15 "Net-(Q1-Pad2)"))
     (pad 3 smd rect (at 1 0) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 4 "Net-(C3-Pad2)"))
-    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/SOT-23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:SOT-23 (layer F.Cu) (tedit 5A02FF57) (tstamp 5C7AA391)
-    (at 140.725001 98.145001)
+  (module footprint:SOT-23 (layer F.Cu) (tedit 5A02FF57) (tstamp 5C7E8821)
+    (at 140.725001 86.715001)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /5C6B6D6D)
@@ -617,15 +617,15 @@
       (net 15 "Net-(Q1-Pad2)"))
     (pad 3 smd rect (at 1 0) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 16 "Net-(Q2-Pad3)"))
-    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/SOT-23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:SOT-23 (layer F.Cu) (tedit 5A02FF57) (tstamp 5C7AA3A6)
-    (at 144.375001 94.245001)
+  (module footprint:SOT-23 (layer F.Cu) (tedit 5A02FF57) (tstamp 5C7E8836)
+    (at 144.375001 82.815001)
     (descr "SOT-23, Standard")
     (tags SOT-23)
     (path /5C6F2511)
@@ -658,15 +658,15 @@
       (net 2 GNDREF))
     (pad 1 smd rect (at -1 -0.95) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 18 "Net-(Q3-Pad1)"))
-    (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/SOT-23.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/SOT-23.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7AA3B7)
-    (at 134.525001 99.425001)
+  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7E8847)
+    (at 134.525001 87.995001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5C6B7893)
@@ -694,15 +694,15 @@
       (net 4 "Net-(C3-Pad2)"))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 1 +5V))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7AA3C8)
-    (at 178.235001 71.875001)
+  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7E8858)
+    (at 178.235001 60.445001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5C6B9482)
@@ -730,15 +730,15 @@
       (net 16 "Net-(Q2-Pad3)"))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 19 "Net-(R2-Pad1)"))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7AA3D9)
-    (at 147.405001 97.125001)
+  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7E8869)
+    (at 147.405001 85.695001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5C6B12EF)
@@ -766,15 +766,15 @@
       (net 20 "Net-(R10-Pad1)"))
     (pad 2 smd roundrect (at 0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 8 /IN_1))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7AA3EA)
-    (at 174.585001 80.575001)
+  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7E887A)
+    (at 174.585001 69.145001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5C6B12B0)
@@ -802,15 +802,15 @@
       (net 20 "Net-(R10-Pad1)"))
     (pad 2 smd roundrect (at 0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 9 /IN_2))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7AA3FB)
-    (at 150.415001 97.125001)
+  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7E888B)
+    (at 150.415001 85.695001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5C6B1253)
@@ -838,15 +838,15 @@
       (net 20 "Net-(R10-Pad1)"))
     (pad 2 smd roundrect (at 0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 10 /IN_3))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7AA40C)
-    (at 147.405001 98.635001)
+  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7E889C)
+    (at 147.405001 87.205001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5C6B7913)
@@ -874,15 +874,15 @@
       (net 15 "Net-(Q1-Pad2)"))
     (pad 2 smd roundrect (at 0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 3 "Net-(C3-Pad1)"))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7AA41D)
-    (at 150.415001 98.635001)
+  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7E88AD)
+    (at 150.415001 87.205001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5C6B1189)
@@ -910,15 +910,15 @@
       (net 8 /IN_1))
     (pad 2 smd roundrect (at 0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 2 GNDREF))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7AA42E)
-    (at 153.425001 97.125001)
+  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7E88BE)
+    (at 153.425001 85.695001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5C6B10F1)
@@ -946,15 +946,15 @@
       (net 9 /IN_2))
     (pad 2 smd roundrect (at 0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 2 GNDREF))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7AA43F)
-    (at 128.505001 99.425001)
+  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7E88CF)
+    (at 128.505001 87.995001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5C6B102F)
@@ -982,15 +982,15 @@
       (net 2 GNDREF))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 10 /IN_3))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7AA450)
-    (at 167.355001 89.285001)
+  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7E88E0)
+    (at 167.355001 77.855001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5C6B11B7)
@@ -1018,15 +1018,15 @@
       (net 21 "Net-(R10-Pad2)"))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 20 "Net-(R10-Pad1)"))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7AA461)
-    (at 167.355001 87.775001)
+  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7E88F1)
+    (at 167.355001 76.345001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5C7BB2F9)
@@ -1054,15 +1054,15 @@
       (net 22 "Net-(R11-Pad2)"))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 11 "Net-(J3-Pad1)"))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7AA472)
-    (at 178.235001 74.895001)
+  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7E8902)
+    (at 178.235001 63.465001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5C6D9344)
@@ -1090,15 +1090,15 @@
       (net 23 "Net-(R12-Pad2)"))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 6 "Net-(C6-Pad2)"))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7AA483)
-    (at 156.435001 97.125001)
+  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7E8913)
+    (at 156.435001 85.695001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5C7BB526)
@@ -1126,15 +1126,15 @@
       (net 12 "Net-(J3-Pad2)"))
     (pad 2 smd roundrect (at 0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 22 "Net-(R11-Pad2)"))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7AA494)
-    (at 178.235001 76.405001)
+  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7E8924)
+    (at 178.235001 64.975001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5C6D93FA)
@@ -1162,15 +1162,15 @@
       (net 23 "Net-(R12-Pad2)"))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 24 "Net-(R14-Pad1)"))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7AA4A5)
-    (at 163.705001 96.475001)
+  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7E8935)
+    (at 163.705001 85.045001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5C6D94F7)
@@ -1198,15 +1198,15 @@
       (net 2 GNDREF))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 24 "Net-(R14-Pad1)"))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7AA4B6)
-    (at 178.235001 77.915001)
+  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7E8946)
+    (at 178.235001 66.485001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5C70509A)
@@ -1234,15 +1234,15 @@
       (net 25 "Net-(R16-Pad2)"))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 1 +5V))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7AA4C7)
-    (at 159.445001 97.125001)
+  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7E8957)
+    (at 159.445001 85.695001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5C6E9668)
@@ -1270,15 +1270,15 @@
       (net 6 "Net-(C6-Pad2)"))
     (pad 2 smd roundrect (at 0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 17 "Net-(Q3-Pad3)"))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7AA4D8)
-    (at 156.435001 98.635001)
+  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7E8968)
+    (at 156.435001 87.205001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5C70500B)
@@ -1306,15 +1306,15 @@
       (net 25 "Net-(R16-Pad2)"))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 26 "Net-(R18-Pad1)"))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7AA4E9)
-    (at 178.235001 73.385001)
+  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7E8979)
+    (at 178.235001 61.955001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5C704F31)
@@ -1342,15 +1342,15 @@
       (net 27 "Net-(R19-Pad1)"))
     (pad 2 smd roundrect (at 0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 26 "Net-(R18-Pad1)"))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7AA4FA)
-    (at 159.445001 98.635001)
+  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7E898A)
+    (at 159.445001 87.205001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5C705112)
@@ -1378,15 +1378,15 @@
       (net 25 "Net-(R16-Pad2)"))
     (pad 2 smd roundrect (at 0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 2 GNDREF))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7AA50B)
-    (at 178.235001 79.425001)
+  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7E899B)
+    (at 178.235001 67.995001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5C748C0D)
@@ -1414,15 +1414,15 @@
       (net 28 "Net-(R21-Pad1)"))
     (pad 2 smd roundrect (at 0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 29 "Net-(R21-Pad2)"))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7AA51C)
-    (at 153.425001 98.635001)
+  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7E89AC)
+    (at 153.425001 87.205001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5C6FFB2E)
@@ -1450,15 +1450,15 @@
       (net 18 "Net-(Q3-Pad1)"))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 27 "Net-(R19-Pad1)"))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7AA52D)
-    (at 167.355001 90.795001)
+  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7E89BD)
+    (at 167.355001 79.365001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5C748B66)
@@ -1486,15 +1486,15 @@
       (net 28 "Net-(R21-Pad1)"))
     (pad 2 smd roundrect (at 0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 13 /PW))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7AA53E)
-    (at 174.585001 82.085001)
+  (module footprint:r0603 (layer F.Cu) (tedit 5B301BBD) (tstamp 5C7E89CE)
+    (at 174.585001 70.655001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5C748A90)
@@ -1522,15 +1522,15 @@
       (net 2 GNDREF))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 13 /PW))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:w3296w (layer F.Cu) (tedit 5C7A8D20) (tstamp 5C7AA555)
-    (at 144.775001 89.745001)
+  (module footprint:w3296w (layer F.Cu) (tedit 5C7A8D20) (tstamp 5C7E89E5)
+    (at 144.775001 78.315001)
     (descr "Potentiometer, vertical, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf")
     (tags "Potentiometer vertical Bourns 3296W")
     (path /5C6B5431)
@@ -1564,15 +1564,15 @@
       (net 14 "Net-(Q1-Pad1)"))
     (pad 1 thru_hole circle (at 0 0) (size 1.44 1.44) (drill 0.8) (layers *.Cu *.Mask)
       (net 20 "Net-(R10-Pad1)"))
-    (model /home/maxx/Project/work/modules/footprint/3D/3296w.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/3296w.wrl
       (offset (xyz -2.5 2.5 5.5))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz -90 90 0))
     )
   )
 
-  (module footprint:w3296w (layer F.Cu) (tedit 5C7A8D20) (tstamp 5C7AA56C)
-    (at 134.625001 89.745001)
+  (module footprint:w3296w (layer F.Cu) (tedit 5C7A8D20) (tstamp 5C7E89FC)
+    (at 134.625001 78.315001)
     (descr "Potentiometer, vertical, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf")
     (tags "Potentiometer vertical Bourns 3296W")
     (path /5C6B950B)
@@ -1606,15 +1606,15 @@
       (net 19 "Net-(R2-Pad1)"))
     (pad 3 thru_hole circle (at -5.08 0) (size 1.44 1.44) (drill 0.8) (layers *.Cu *.Mask)
       (net 23 "Net-(R12-Pad2)"))
-    (model /home/maxx/Project/work/modules/footprint/3D/3296w.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/3296w.wrl
       (offset (xyz -2.5 2.5 5.5))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz -90 90 0))
     )
   )
 
-  (module footprint:PTV09A4020FB103 (layer F.Cu) (tedit 5C796D26) (tstamp 5C7AA588)
-    (at 134.680001 79.070001)
+  (module footprint:PTV09A4020FB103 (layer F.Cu) (tedit 5C796D26) (tstamp 5C7E8A18)
+    (at 134.680001 67.640001)
     (descr PTV09A-4)
     (tags Resistor)
     (path /5C6B2FF1)
@@ -1651,15 +1651,15 @@
       (net 21 "Net-(R10-Pad2)"))
     (pad 1 thru_hole circle (at -2.5 5.6 90) (size 1.8 1.8) (drill 1.2) (layers *.Cu *.Mask F.SilkS)
       (net 1 +5V))
-    (model /home/maxx/Project/work/modules/footprint/3D/r0904n.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/r0904n.wrl
       (offset (xyz 0 1.5 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:PTV09A4020FB103 (layer F.Cu) (tedit 5C796D26) (tstamp 5C7AA5A4)
-    (at 150.040001 79.070001)
+  (module footprint:PTV09A4020FB103 (layer F.Cu) (tedit 5C796D26) (tstamp 5C7E8A34)
+    (at 150.040001 67.640001)
     (descr PTV09A-4)
     (tags Resistor)
     (path /5C78769F)
@@ -1696,15 +1696,15 @@
       (net 30 "Net-(RV4-Pad2)"))
     (pad 1 thru_hole circle (at -2.5 5.6 90) (size 1.8 1.8) (drill 1.2) (layers *.Cu *.Mask F.SilkS)
       (net 31 "Net-(RV4-Pad1)"))
-    (model /home/maxx/Project/work/modules/footprint/3D/r0904n.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/r0904n.wrl
       (offset (xyz 0 1.5 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:PTV09A4020FB103 (layer F.Cu) (tedit 5C796D26) (tstamp 5C7AA5C0)
-    (at 165.400001 79.070001)
+  (module footprint:PTV09A4020FB103 (layer F.Cu) (tedit 5C796D26) (tstamp 5C7E8A50)
+    (at 165.400001 67.640001)
     (descr PTV09A-4)
     (tags Resistor)
     (path /5C748A0D)
@@ -1741,15 +1741,15 @@
       (net 5 -5V))
     (pad 4 thru_hole circle (at -4.4 -1.4 90) (size 4.46 4.46) (drill 2.9732) (layers *.Cu *.Mask F.SilkS))
     (pad 5 thru_hole circle (at 4.4 -1.4 90) (size 4.46 4.46) (drill 2.9732) (layers *.Cu *.Mask F.SilkS))
-    (model /home/maxx/Project/work/modules/footprint/3D/r0904n.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/r0904n.wrl
       (offset (xyz 0 1.5 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:smts-102-2a2 (layer F.Cu) (tedit 5C7A8647) (tstamp 5C7AA5CB)
-    (at 131.175001 95.145001)
+  (module footprint:smts (layer F.Cu) (tedit 5C7A8647) (tstamp 5C7E8A5B)
+    (at 131.175001 83.715001)
     (path /5C753FF1)
     (fp_text reference S1 (at 0 -7.5) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1767,15 +1767,15 @@
       (net 7 "Net-(C6-Pad1)"))
     (pad 1 thru_hole roundrect (at -2.5 0) (size 2 2) (drill oval 0.8) (layers *.Cu *.Mask) (roundrect_rratio 0.25)
       (net 32 "Net-(S1-Pad1)"))
-    (model "/home/maxx/Project/work/modules/footprint/3D/SPDT Toggle Switch.wrl"
+    (model ${KIPRJMOD}/../Library/footprint/3D/SPDT.wrl
       (offset (xyz -7.77 -2.3 0))
       (scale (xyz 0.4 0.4 0.4))
       (rotate (xyz 90 180 0))
     )
   )
 
-  (module footprint:soic-14 (layer F.Cu) (tedit 5A02F2D3) (tstamp 5C7AA5EE)
-    (at 158.475001 91.695001)
+  (module footprint:soic-14 (layer F.Cu) (tedit 5A02F2D3) (tstamp 5C7E8A7E)
+    (at 158.475001 80.265001)
     (descr "14-Lead Plastic Small Outline (SL) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /5C6B38FE)
@@ -1833,15 +1833,15 @@
       (net 20 "Net-(R10-Pad1)"))
     (pad 1 smd rect (at -2.7 -3.81) (size 1.5 0.6) (layers F.Cu F.Paste F.Mask)
       (net 14 "Net-(Q1-Pad1)"))
-    (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIC-14_3.9x8.7mm_P1.27mm.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/SOIC-14_3.9x8.7mm_P1.27mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module footprint:soic-14 (layer F.Cu) (tedit 5A02F2D3) (tstamp 5C7AA611)
-    (at 151.025001 91.695001)
+  (module footprint:soic-14 (layer F.Cu) (tedit 5A02F2D3) (tstamp 5C7E8AA1)
+    (at 151.025001 80.265001)
     (descr "14-Lead Plastic Small Outline (SL) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)")
     (tags "SOIC 1.27")
     (path /5C6B3A6A)
@@ -1896,7 +1896,7 @@
     (pad 12 smd rect (at 2.7 -1.27) (size 1.5 0.6) (layers F.Cu F.Paste F.Mask))
     (pad 13 smd rect (at 2.7 -2.54) (size 1.5 0.6) (layers F.Cu F.Paste F.Mask))
     (pad 14 smd rect (at 2.7 -3.81) (size 1.5 0.6) (layers F.Cu F.Paste F.Mask))
-    (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIC-14_3.9x8.7mm_P1.27mm.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/SOIC-14_3.9x8.7mm_P1.27mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

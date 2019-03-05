@@ -30,4 +30,4 @@ NetIExt=net
 [eeschema]
 version=1
 LibDir=
-[eeschema/libraries]
+[eeschema/Library]

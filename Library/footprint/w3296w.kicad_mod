@@ -28,7 +28,7 @@
   (pad 1 thru_hole circle (at 0 0) (size 1.44 1.44) (drill 0.8) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -2.54 0) (size 1.44 1.44) (drill 0.8) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at -5.08 0) (size 1.44 1.44) (drill 0.8) (layers *.Cu *.Mask))
-  (model /home/maxx/Project/work/modules/footprint/3D/3296w.wrl
+  (model ${KIPRJMOD}/../Library/footprint/3D/3296w.wrl
     (offset (xyz -2.5 2.5 5.5))
     (scale (xyz 0.4 0.4 0.4))
     (rotate (xyz -90 90 0))

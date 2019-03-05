@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/maxx/Project/work/modules/VCO/VCO.sch)
-    (date "Сб 02 мар 2019 17:04:32")
+    (date "Вт 05 мар 2019 16:59:02")
     (tool "Eeschema 5.0.2-bee76a0~70~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -107,7 +107,7 @@
       (value BC807)
       (footprint footprint:SOT-23)
       (datasheet http://www.fairchildsemi.com/ds/BC/BC807.pdf)
-      (libsource (lib Transistor_BJT) (part BC817) (description "0.8A Ic, 45V Vce, NPN Transistor, SOT-23"))
+      (libsource (lib uRack) (part BC817) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5C6B6D11))
     (comp (ref Q2)
@@ -179,7 +179,7 @@
       (value "10 nF")
       (footprint footprint:c0603)
       (datasheet ~)
-      (libsource (lib Device) (part C) (description "Unpolarized capacitor"))
+      (libsource (lib uRack) (part C) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5C6E5337))
     (comp (ref R17)
@@ -335,7 +335,7 @@
       (tstamp 5C811C8B))
     (comp (ref S1)
       (value Switch)
-      (footprint footprint:smts-102-2a2)
+      (footprint footprint:smts)
       (datasheet https://componentsearchengine.com/Datasheets/1/M2013SS1W03.pdf)
       (fields
         (field (name "Allied Price/Stock") https://www.alliedelec.com/nkk-switches-m2013ss1w03/70192098/)
@@ -350,39 +350,6 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5C753FF1)))
   (libparts
-    (libpart (lib Device) (part C)
-      (description "Unpolarized capacitor")
-      (docs ~)
-      (footprints
-        (fp C_*))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) C))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib Transistor_BJT) (part BC817)
-      (aliases
-        (alias BC818)
-        (alias BC847)
-        (alias BC848)
-        (alias BC849)
-        (alias BC850)
-        (alias MMBT3904)
-        (alias MMBT5550L)
-        (alias MMBT5551L))
-      (description "0.8A Ic, 45V Vce, NPN Transistor, SOT-23")
-      (docs http://www.fairchildsemi.com/ds/BC/BC817.pdf)
-      (footprints
-        (fp SOT?23*))
-      (fields
-        (field (name Reference) Q)
-        (field (name Value) BC817)
-        (field (name Footprint) Package_TO_SOT_SMD:SOT-23))
-      (pins
-        (pin (num 1) (name B) (type input))
-        (pin (num 2) (name E) (type passive))
-        (pin (num 3) (name C) (type passive))))
     (libpart (lib uRack) (part BC817)
       (footprints
         (fp SOT?23*))
@@ -483,12 +450,8 @@
         (pin (num 2) (name 2) (type BiDi))
         (pin (num 3) (name 3) (type BiDi)))))
   (libraries
-    (library (logical Device)
-      (uri /usr/share/kicad/library/Device.lib))
-    (library (logical Transistor_BJT)
-      (uri /usr/share/kicad/library/Transistor_BJT.lib))
     (library (logical uRack)
-      (uri /home/maxx/Project/work/modules/librares/uRack.lib)))
+      (uri /home/maxx/Project/work/modules/VCO/../Library/uRack.lib)))
   (nets
     (net (code 1) (name +5V)
       (node (ref RV5) (pin 1))

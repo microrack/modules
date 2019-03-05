@@ -69,6 +69,8 @@ F 3 "~" H 1900 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
+	1750 1500 1900 1500
+Wire Wire Line
 	2150 1500 2150 1650
 Wire Wire Line
 	2150 1650 2200 1650
@@ -858,6 +860,9 @@ Text Label 9550 2450 0    50   ~ 0
 -5V
 Text Label 9500 2000 0    50   ~ 0
 GND
+Connection ~ 1900 1500
+Wire Wire Line
+	1900 1500 2150 1500
 Wire Wire Line
 	1900 1500 1900 1400
 Text Label 2000 4650 0    50   ~ 0
@@ -866,6 +871,4 @@ Text Label 2000 4800 0    50   ~ 0
 IN_2
 Wire Wire Line
 	3050 1100 3050 1300
-Wire Wire Line
-	1750 1500 2150 1500
 $EndSCHEMATC

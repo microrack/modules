@@ -930,7 +930,7 @@ F 1 "LM324" H 4200 2226 50  0000 C CNN
 F 2 "footprint:soic-14" H 4150 2050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 4250 2150 50  0001 C CNN
 	1    4200 1950
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L uRack:LM324 U1
@@ -941,7 +941,7 @@ F 1 "LM324" H 3550 3276 50  0000 C CNN
 F 2 "footprint:soic-14" H 3500 3100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3600 3200 50  0001 C CNN
 	3    3550 3000
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L uRack:LM324 U1
