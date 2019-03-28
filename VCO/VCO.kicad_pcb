@@ -3,7 +3,7 @@
   (general
     (thickness 1.6)
     (drawings 4)
-    (tracks 546)
+    (tracks 547)
     (zones 0)
     (modules 53)
     (nets 33)
@@ -64,7 +64,7 @@
     (pad_to_mask_clearance 0)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 36 28.3)
-    (visible_elements FFFDFF1F)
+    (visible_elements FFFFFFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -179,7 +179,7 @@
   )
 
   (module footprint:pls1x05 (layer B.Cu) (tedit 5A19A420) (tstamp 5C8A33CE)
-    (at 49.53 83.82 270)
+    (at 49.53 87 270)
     (descr "Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x05 2.54mm single row")
     (path /5C943AE1)
@@ -217,7 +217,7 @@
       (net 2 GNDREF))
     (pad 1 thru_hole rect (at 0 0 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 GNDREF))
-    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x05_P2.54mm_Vertical.wrl
+    (model /home/maxx/Project/work/modules/Library/footprint/3D/PinHeader_1x05_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -253,7 +253,7 @@
       (net 1 +5V))
     (pad 1 smd roundrect (at -0.7875 0 90) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 2 GNDREF))
-    (model ${KIPRJMOD}/../Library/footprint/3D/C_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -289,7 +289,7 @@
       (net 2 GNDREF))
     (pad 2 smd roundrect (at 0.7875 0 90) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 1 +5V))
-    (model ${KIPRJMOD}/../Library/footprint/3D/C_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -325,7 +325,7 @@
       (net 3 "Net-(C3-Pad1)"))
     (pad 2 smd roundrect (at 0.7875 0 270) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 4 "Net-(C3-Pad2)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/C_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -361,7 +361,7 @@
       (net 5 -5V))
     (pad 2 smd roundrect (at 0.7875 0 90) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 2 GNDREF))
-    (model ${KIPRJMOD}/../Library/footprint/3D/C_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -397,7 +397,7 @@
       (net 2 GNDREF))
     (pad 1 smd roundrect (at -0.7875 0 270) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 5 -5V))
-    (model ${KIPRJMOD}/../Library/footprint/3D/C_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -433,7 +433,7 @@
       (net 6 "Net-(C6-Pad2)"))
     (pad 1 smd roundrect (at -0.7875 0 270) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 7 "Net-(C6-Pad1)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/C_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/C_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -474,7 +474,7 @@
       (net 13 "Net-(Q1-Pad2)"))
     (pad 3 smd rect (at 1 0 270) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 4 "Net-(C3-Pad2)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/SOT-23.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/SOT-23.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -515,7 +515,7 @@
       (net 13 "Net-(Q1-Pad2)"))
     (pad 3 smd rect (at 1 0 270) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 14 "Net-(Q2-Pad3)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/SOT-23.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/SOT-23.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -556,7 +556,7 @@
       (net 2 GNDREF))
     (pad 1 smd rect (at -1 -0.95 270) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
       (net 16 "Net-(Q3-Pad1)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/SOT-23.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/SOT-23.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -592,7 +592,7 @@
       (net 4 "Net-(C3-Pad2)"))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 1 +5V))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -628,7 +628,7 @@
       (net 14 "Net-(Q2-Pad3)"))
     (pad 1 smd roundrect (at -0.7875 0 270) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 17 "Net-(R2-Pad1)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -664,7 +664,7 @@
       (net 18 "Net-(R10-Pad1)"))
     (pad 2 smd roundrect (at 0.7875 0 180) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 8 /IN_1))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -700,7 +700,7 @@
       (net 18 "Net-(R10-Pad1)"))
     (pad 2 smd roundrect (at 0.7875 0 180) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 9 /IN_2))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -736,7 +736,7 @@
       (net 18 "Net-(R10-Pad1)"))
     (pad 2 smd roundrect (at 0.7875 0 180) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 10 /IN_3))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -772,7 +772,7 @@
       (net 13 "Net-(Q1-Pad2)"))
     (pad 2 smd roundrect (at 0.7875 0 180) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 3 "Net-(C3-Pad1)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -808,7 +808,7 @@
       (net 8 /IN_1))
     (pad 2 smd roundrect (at 0.7875 0 180) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 2 GNDREF))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -844,7 +844,7 @@
       (net 9 /IN_2))
     (pad 2 smd roundrect (at 0.7875 0 180) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 2 GNDREF))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -880,7 +880,7 @@
       (net 2 GNDREF))
     (pad 1 smd roundrect (at -0.7875 0 180) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 10 /IN_3))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -916,7 +916,7 @@
       (net 19 "Net-(R10-Pad2)"))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 18 "Net-(R10-Pad1)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -952,7 +952,7 @@
       (net 20 "Net-(R11-Pad2)"))
     (pad 1 smd roundrect (at -0.7875 0 180) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 31 "Net-(J10-Pad1)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -988,7 +988,7 @@
       (net 21 "Net-(R12-Pad2)"))
     (pad 1 smd roundrect (at -0.7875 0 90) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 6 "Net-(C6-Pad2)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1024,7 +1024,7 @@
       (net 32 "Net-(J10-Pad2)"))
     (pad 2 smd roundrect (at 0.7875 0 180) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 20 "Net-(R11-Pad2)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1060,7 +1060,7 @@
       (net 21 "Net-(R12-Pad2)"))
     (pad 1 smd roundrect (at -0.7875 0 90) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 22 "Net-(R14-Pad1)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1096,7 +1096,7 @@
       (net 2 GNDREF))
     (pad 1 smd roundrect (at -0.7875 0 270) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 22 "Net-(R14-Pad1)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1132,7 +1132,7 @@
       (net 23 "Net-(R16-Pad2)"))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 1 +5V))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1168,7 +1168,7 @@
       (net 6 "Net-(C6-Pad2)"))
     (pad 2 smd roundrect (at 0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 15 "Net-(Q3-Pad3)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1204,7 +1204,7 @@
       (net 23 "Net-(R16-Pad2)"))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 24 "Net-(R18-Pad1)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1240,7 +1240,7 @@
       (net 25 "Net-(R19-Pad1)"))
     (pad 2 smd roundrect (at 0.7875 0) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 24 "Net-(R18-Pad1)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1276,7 +1276,7 @@
       (net 23 "Net-(R16-Pad2)"))
     (pad 2 smd roundrect (at 0.7875 0 270) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 2 GNDREF))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1312,7 +1312,7 @@
       (net 26 "Net-(R21-Pad1)"))
     (pad 2 smd roundrect (at 0.7875 0 90) (size 0.875 0.95) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.25)
       (net 27 "Net-(R21-Pad2)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1348,7 +1348,7 @@
       (net 16 "Net-(Q3-Pad1)"))
     (pad 1 smd roundrect (at -0.7875 0 180) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 25 "Net-(R19-Pad1)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1384,7 +1384,7 @@
       (net 26 "Net-(R21-Pad1)"))
     (pad 2 smd roundrect (at 0.7875 0 180) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 11 /PW))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1420,7 +1420,7 @@
       (net 2 GNDREF))
     (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 11 /PW))
-    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/R_0603_1608Metric.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1462,10 +1462,10 @@
       (net 12 "Net-(Q1-Pad1)"))
     (pad 1 thru_hole circle (at 0 0) (size 1.44 1.44) (drill 0.8) (layers *.Cu *.Mask)
       (net 18 "Net-(R10-Pad1)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/3296w.wrl
-      (offset (xyz -2.5 2.5 5.5))
-      (scale (xyz 0.4 0.4 0.4))
-      (rotate (xyz -90 90 0))
+    (model ${KIPRJMOD}/../Library/footprint/3D/3296w.step
+      (offset (xyz -5 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 90))
     )
   )
 
@@ -1504,10 +1504,10 @@
       (net 17 "Net-(R2-Pad1)"))
     (pad 3 thru_hole circle (at -5.08 0) (size 1.44 1.44) (drill 0.8) (layers *.Cu *.Mask)
       (net 21 "Net-(R12-Pad2)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/3296w.wrl
-      (offset (xyz -2.5 2.5 5.5))
-      (scale (xyz 0.4 0.4 0.4))
-      (rotate (xyz -90 90 0))
+    (model ${KIPRJMOD}/../Library/footprint/3D/3296w.step
+      (offset (xyz -5 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 90))
     )
   )
 
@@ -1549,9 +1549,9 @@
       (net 19 "Net-(R10-Pad2)"))
     (pad 1 thru_hole circle (at -2.5 5.6 90) (size 1.8 1.8) (drill 1.2) (layers *.Cu *.Mask F.SilkS)
       (net 1 +5V))
-    (model ${KIPRJMOD}/../Library/footprint/3D/r0904n.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/r0904n.step
       (offset (xyz 0 1.5 0))
-      (scale (xyz 0.4 0.4 0.4))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -1594,9 +1594,9 @@
       (net 28 "Net-(RV4-Pad2)"))
     (pad 1 thru_hole circle (at -2.5 5.6 90) (size 1.8 1.8) (drill 1.2) (layers *.Cu *.Mask F.SilkS)
       (net 29 "Net-(RV4-Pad1)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/r0904n.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/r0904n.step
       (offset (xyz 0 1.5 0))
-      (scale (xyz 0.4 0.4 0.4))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -1639,9 +1639,9 @@
       (net 5 -5V))
     (pad 4 thru_hole circle (at -4.4 -1.4 90) (size 4.46 4.46) (drill 2.9732) (layers *.Cu *.Mask F.SilkS))
     (pad 5 thru_hole circle (at 4.4 -1.4 90) (size 4.46 4.46) (drill 2.9732) (layers *.Cu *.Mask F.SilkS))
-    (model ${KIPRJMOD}/../Library/footprint/3D/r0904n.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/r0904n.step
       (offset (xyz 0 1.5 0))
-      (scale (xyz 0.4 0.4 0.4))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -1663,11 +1663,11 @@
       (net 29 "Net-(RV4-Pad1)"))
     (pad 2 thru_hole circle (at 0 0 90) (size 2 2) (drill 0.8) (layers *.Cu *.Mask)
       (net 7 "Net-(C6-Pad1)"))
-    (pad 1 thru_hole roundrect (at -2.5 0 90) (size 2 2) (drill oval 0.8) (layers *.Cu *.Mask) (roundrect_rratio 0.25)
+    (pad 1 thru_hole roundrect (at -2.5 0 90) (size 2 2) (drill 0.8) (layers *.Cu *.Mask) (roundrect_rratio 0.25)
       (net 30 "Net-(S1-Pad1)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/SPDT.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/SMTS-102.step
       (offset (xyz -7.77 -2.3 0))
-      (scale (xyz 0.4 0.4 0.4))
+      (scale (xyz 1 1 1))
       (rotate (xyz 90 180 0))
     )
   )
@@ -1731,7 +1731,7 @@
       (net 18 "Net-(R10-Pad1)"))
     (pad 1 smd rect (at -2.7 3.81 180) (size 1.5 0.6) (layers B.Cu B.Paste B.Mask)
       (net 12 "Net-(Q1-Pad1)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/SOIC-14_3.9x8.7mm_P1.27mm.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/SOIC-14_3.9x8.7mm_P1.27mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1794,7 +1794,7 @@
     (pad 12 smd rect (at 2.7 1.27 180) (size 1.5 0.6) (layers B.Cu B.Paste B.Mask))
     (pad 13 smd rect (at 2.7 2.54 180) (size 1.5 0.6) (layers B.Cu B.Paste B.Mask))
     (pad 14 smd rect (at 2.7 3.81 180) (size 1.5 0.6) (layers B.Cu B.Paste B.Mask))
-    (model ${KIPRJMOD}/../Library/footprint/3D/SOIC-14_3.9x8.7mm_P1.27mm.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/SOIC-14_3.9x8.7mm_P1.27mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1802,7 +1802,7 @@
   )
 
   (module footprint:pls1x05 (layer B.Cu) (tedit 5A19A420) (tstamp 5C8A33E7)
-    (at 69.85 83.82 270)
+    (at 69.85 87 270)
     (descr "Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x05 2.54mm single row")
     (path /5C94397B)
@@ -1840,7 +1840,7 @@
       (net 2 GNDREF))
     (pad 5 thru_hole oval (at 0 -10.16 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 GNDREF))
-    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x05_P2.54mm_Vertical.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/PinHeader_1x05_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1848,7 +1848,7 @@
   )
 
   (module footprint:pls1x05 (layer B.Cu) (tedit 5A19A420) (tstamp 5C8A4824)
-    (at 90.17 83.82 270)
+    (at 90.17 87 270)
     (descr "Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x05 2.54mm single row")
     (path /5C94382B)
@@ -1886,7 +1886,7 @@
       (net 2 GNDREF))
     (pad 1 thru_hole rect (at 0 0 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 GNDREF))
-    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x05_P2.54mm_Vertical.wrl
+    (model /home/maxx/Project/work/modules/Library/footprint/3D/PinHeader_1x05_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1894,7 +1894,7 @@
   )
 
   (module footprint:pls1x05 (layer B.Cu) (tedit 5A19A420) (tstamp 5C8A3419)
-    (at 50.8 90.17 270)
+    (at 50.8 94 270)
     (descr "Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x05 2.54mm single row")
     (path /5C945263)
@@ -1932,7 +1932,7 @@
       (net 5 -5V))
     (pad 5 thru_hole oval (at 0 -10.16 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 5 -5V))
-    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x05_P2.54mm_Vertical.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/PinHeader_1x05_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1940,7 +1940,7 @@
   )
 
   (module footprint:pls1x05 (layer B.Cu) (tedit 5A19A420) (tstamp 5C8A3432)
-    (at 71.12 90.17 270)
+    (at 71.12 94 270)
     (descr "Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x05 2.54mm single row")
     (path /5C945356)
@@ -1978,7 +1978,7 @@
       (net 5 -5V))
     (pad 1 thru_hole rect (at 0 0 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 5 -5V))
-    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x05_P2.54mm_Vertical.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/PinHeader_1x05_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2018,7 +2018,7 @@
       (net 31 "Net-(J10-Pad1)"))
     (pad 2 thru_hole oval (at 0 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 32 "Net-(J10-Pad2)"))
-    (model ${KIPRJMOD}/../Library/footprint/3D/PinHeader_1x02_P2.54mm_Vertical.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/PinHeader_1x02_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2026,7 +2026,7 @@
   )
 
   (module footprint:pls1x05 (layer B.Cu) (tedit 5A19A420) (tstamp 5C8A3461)
-    (at 91.44 90.17 270)
+    (at 91.44 94 270)
     (descr "Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x05 2.54mm single row")
     (path /5C945458)
@@ -2064,7 +2064,7 @@
       (net 5 -5V))
     (pad 5 thru_hole oval (at 0 -10.16 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 5 -5V))
-    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x05_P2.54mm_Vertical.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/PinHeader_1x05_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2102,7 +2102,7 @@
     )
     (pad 1 thru_hole rect (at 0 0) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 11 /PW))
-    (model ${KIPRJMOD}/../Library/footprint/3D/PinHeader_1x01_P2.54mm_Vertical.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/PinHeader_1x01_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2110,7 +2110,7 @@
   )
 
   (module footprint:pls1x05 (layer B.Cu) (tedit 5A19A420) (tstamp 5C8A1BB1)
-    (at 71.12 33.02 270)
+    (at 71.12 33 270)
     (descr "Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x05 2.54mm single row")
     (path /5C943702)
@@ -2148,7 +2148,7 @@
       (net 1 +5V))
     (pad 5 thru_hole oval (at 0 -10.16 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x05_P2.54mm_Vertical.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/PinHeader_1x05_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2156,7 +2156,7 @@
   )
 
   (module footprint:pls1x05 (layer B.Cu) (tedit 5A19A420) (tstamp 5C8A1BC9)
-    (at 91.44 33.02 270)
+    (at 91.44 33 270)
     (descr "Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x05 2.54mm single row")
     (path /5C943612)
@@ -2194,7 +2194,7 @@
       (net 1 +5V))
     (pad 1 thru_hole rect (at 0 0 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x05_P2.54mm_Vertical.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/PinHeader_1x05_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2236,7 +2236,7 @@
       (net 9 /IN_2))
     (pad 3 thru_hole oval (at 0 5.08) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 10 /IN_3))
-    (model ${KIPRJMOD}/../Library/footprint/3D/PinHeader_1x03_P2.54mm_Vertical.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/PinHeader_1x03_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2244,7 +2244,7 @@
   )
 
   (module footprint:pls1x05 (layer B.Cu) (tedit 5A19A420) (tstamp 5C8A1BF7)
-    (at 50.8 33.02 270)
+    (at 50.8 33 270)
     (descr "Through hole straight socket strip, 1x05, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
     (tags "Through hole socket strip THT 1x05 2.54mm single row")
     (path /5C943416)
@@ -2282,7 +2282,7 @@
       (net 1 +5V))
     (pad 5 thru_hole oval (at 0 -10.16 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 +5V))
-    (model ${KISYS3DMOD}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x05_P2.54mm_Vertical.wrl
+    (model ${KIPRJMOD}/../Library/footprint/3D/PinHeader_1x05_P2.54mm_Vertical.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2384,12 +2384,12 @@
   (segment (start 58.293 62.23) (end 58.293 64.135) (width 0.5) (layer F.Cu) (net 1))
   (segment (start 49.657 72.771) (end 50.165 73.279) (width 0.5) (layer B.Cu) (net 1))
   (segment (start 49.657 71.628) (end 49.657 72.771) (width 0.5) (layer B.Cu) (net 1))
-  (segment (start 57.15 83.82) (end 69.85 83.82) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 80.01 83.82) (end 91.44 83.82) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 91.44 83.82) (end 93.98 83.82) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 93.98 83.82) (end 97.79 83.82) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 97.79 83.82) (end 96.52 83.82) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 96.52 83.82) (end 99.06 83.82) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 57.15 86.995) (end 69.85 86.995) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 80.645 86.995) (end 92.075 86.995) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 91.44 87) (end 93.98 87) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 93.98 87) (end 97.79 87) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 97.79 86.995) (end 96.52 86.995) (width 0.25) (layer F.Cu) (net 2))
+  (segment (start 96.52 86.995) (end 99.06 86.995) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 54.45 69.85) (end 52.07 69.85) (width 0.5) (layer B.Cu) (net 2))
   (segment (start 50.3175 69.85) (end 50.292 69.8755) (width 0.25) (layer B.Cu) (net 2))
   (segment (start 52.07 69.85) (end 50.3175 69.85) (width 0.5) (layer B.Cu) (net 2))
@@ -2429,19 +2429,10 @@
   (segment (start 69.088 70.612) (end 69.596 71.12) (width 0.5) (layer F.Cu) (net 2))
   (via (at 69.596 80.137) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2))
   (segment (start 69.596 71.12) (end 69.596 80.137) (width 0.5) (layer F.Cu) (net 2))
-  (segment (start 69.596 83.566) (end 69.85 83.82) (width 0.25) (layer B.Cu) (net 2))
   (segment (start 69.596 80.137) (end 69.596 83.566) (width 0.5) (layer B.Cu) (net 2))
   (segment (start 60.452 80.645) (end 60.452008 80.645) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 60.579 80.518) (end 60.452 80.645) (width 0.25) (layer F.Cu) (net 2))
-  (segment (start 60.052009 81.044999) (end 60.452008 80.645) (width 0.5) (layer B.Cu) (net 2))
-  (segment (start 59.69 83.82) (end 59.69 81.407008) (width 0.5) (layer B.Cu) (net 2))
-  (segment (start 59.69 81.407008) (end 60.052009 81.044999) (width 0.5) (layer B.Cu) (net 2))
   (via (at 60.452008 80.645) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2))
-  (segment (start 48.387 71.374) (end 48.387 70.485) (width 0.5) (layer B.Cu) (net 2))
-  (segment (start 49.53 83.82) (end 48.43 83.82) (width 0.5) (layer B.Cu) (net 2))
-  (segment (start 47.498 72.263) (end 48.387 71.374) (width 0.5) (layer B.Cu) (net 2))
-  (segment (start 48.43 83.82) (end 47.498 82.888) (width 0.5) (layer B.Cu) (net 2))
-  (segment (start 47.498 82.888) (end 47.498 72.263) (width 0.5) (layer B.Cu) (net 2))
   (segment (start 50.2665 69.85) (end 50.292 69.8755) (width 0.25) (layer B.Cu) (net 2))
   (segment (start 48.952685 70.485) (end 49.587685 69.85) (width 0.5) (layer B.Cu) (net 2))
   (segment (start 49.587685 69.85) (end 50.2665 69.85) (width 0.5) (layer B.Cu) (net 2))
@@ -2449,22 +2440,22 @@
   (segment (start 38.354 70.485) (end 46.355 70.485) (width 0.5) (layer F.Cu) (net 2))
   (segment (start 37.414 70.485) (end 38.354 70.485) (width 0.5) (layer F.Cu) (net 2))
   (segment (start 37.414 68.58) (end 37.414 70.485) (width 0.5) (layer F.Cu) (net 2))
-  (segment (start 49.53 83.82) (end 52.07 83.82) (width 0.5) (layer F.Cu) (net 2))
-  (segment (start 52.07 83.82) (end 54.61 83.82) (width 0.5) (layer F.Cu) (net 2))
-  (segment (start 54.61 83.82) (end 57.15 83.82) (width 0.5) (layer F.Cu) (net 2))
-  (segment (start 57.15 83.82) (end 59.69 83.82) (width 0.5) (layer F.Cu) (net 2))
-  (segment (start 60.892081 83.82) (end 69.85 83.82) (width 0.5) (layer F.Cu) (net 2))
-  (segment (start 59.69 83.82) (end 60.892081 83.82) (width 0.5) (layer F.Cu) (net 2))
-  (segment (start 69.85 83.82) (end 72.39 83.82) (width 0.5) (layer F.Cu) (net 2))
-  (segment (start 72.39 83.82) (end 74.93 83.82) (width 0.5) (layer F.Cu) (net 2))
-  (segment (start 74.93 83.82) (end 77.47 83.82) (width 0.5) (layer F.Cu) (net 2))
-  (segment (start 77.47 83.82) (end 80.01 83.82) (width 0.5) (layer F.Cu) (net 2))
-  (segment (start 81.212081 83.82) (end 90.17 83.82) (width 0.5) (layer F.Cu) (net 2))
-  (segment (start 80.01 83.82) (end 81.212081 83.82) (width 0.5) (layer F.Cu) (net 2))
-  (segment (start 90.17 83.82) (end 92.71 83.82) (width 0.5) (layer F.Cu) (net 2))
-  (segment (start 92.71 83.82) (end 95.25 83.82) (width 0.5) (layer F.Cu) (net 2))
-  (segment (start 95.25 83.82) (end 97.79 83.82) (width 0.5) (layer F.Cu) (net 2))
-  (segment (start 97.79 83.82) (end 100.33 83.82) (width 0.5) (layer F.Cu) (net 2))
+  (segment (start 49.53 86.995) (end 52.07 86.995) (width 0.5) (layer F.Cu) (net 2))
+  (segment (start 52.07 87) (end 54.61 87) (width 0.5) (layer F.Cu) (net 2))
+  (segment (start 54.61 86.995) (end 57.15 86.995) (width 0.5) (layer F.Cu) (net 2))
+  (segment (start 57.15 87) (end 59.69 87) (width 0.5) (layer F.Cu) (net 2))
+  (segment (start 60.892081 86.995) (end 69.85 86.995) (width 0.5) (layer F.Cu) (net 2))
+  (segment (start 59.69 87) (end 60.892081 87) (width 0.5) (layer F.Cu) (net 2))
+  (segment (start 69.85 86.995) (end 72.39 86.995) (width 0.5) (layer F.Cu) (net 2))
+  (segment (start 72.39 87) (end 74.93 87) (width 0.5) (layer F.Cu) (net 2))
+  (segment (start 74.93 86.995) (end 77.47 86.995) (width 0.5) (layer F.Cu) (net 2))
+  (segment (start 77.47 86.995) (end 80.01 86.995) (width 0.5) (layer F.Cu) (net 2))
+  (segment (start 81.28 86.995) (end 90.237919 86.995) (width 0.5) (layer F.Cu) (net 2))
+  (segment (start 80.01 87) (end 81.212081 87) (width 0.5) (layer F.Cu) (net 2))
+  (segment (start 90.17 87) (end 92.71 87) (width 0.5) (layer F.Cu) (net 2))
+  (segment (start 92.71 86.995) (end 95.25 86.995) (width 0.5) (layer F.Cu) (net 2))
+  (segment (start 95.25 86.995) (end 97.79 86.995) (width 0.5) (layer F.Cu) (net 2))
+  (segment (start 97.79 86.995) (end 100.33 86.995) (width 0.5) (layer F.Cu) (net 2))
   (via (at 64.262 63.08001) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2))
   (segment (start 64.262 62.514325) (end 64.262 63.08001) (width 0.5) (layer F.Cu) (net 2))
   (segment (start 64.262 63.7795) (end 64.262 63.645695) (width 0.5) (layer B.Cu) (net 2))
@@ -2472,6 +2463,16 @@
   (segment (start 70.49 50.18) (end 64.262 56.408) (width 0.5) (layer F.Cu) (net 2))
   (segment (start 64.262 56.408) (end 64.262 62.514325) (width 0.5) (layer F.Cu) (net 2))
   (segment (start 64.262 63.645695) (end 64.262 63.08001) (width 0.5) (layer B.Cu) (net 2))
+  (segment (start 60.052009 81.044999) (end 60.452008 80.645) (width 0.5) (layer B.Cu) (net 2))
+  (segment (start 59.69 81.407008) (end 60.052009 81.044999) (width 0.5) (layer B.Cu) (net 2))
+  (segment (start 59.69 87) (end 59.69 81.407008) (width 0.5) (layer B.Cu) (net 2))
+  (segment (start 47.63 87) (end 49.53 87) (width 0.5) (layer B.Cu) (net 2))
+  (segment (start 48.387 70.485) (end 48.387 71.374) (width 0.5) (layer B.Cu) (net 2))
+  (segment (start 48.387 71.374) (end 47.498 72.263) (width 0.5) (layer B.Cu) (net 2))
+  (segment (start 47.498 86.868) (end 47.63 87) (width 0.5) (layer B.Cu) (net 2))
+  (segment (start 47.498 72.263) (end 47.498 86.868) (width 0.5) (layer B.Cu) (net 2))
+  (segment (start 69.85 83.82) (end 69.85 87) (width 0.5) (layer B.Cu) (net 2))
+  (segment (start 69.596 83.566) (end 69.85 83.82) (width 0.5) (layer B.Cu) (net 2))
   (segment (start 48.895 74.9555) (end 48.8695 74.93) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 48.8695 77.165) (end 48.895 77.1905) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 48.8695 74.93) (end 48.8695 77.165) (width 0.25) (layer F.Cu) (net 3))
@@ -2496,13 +2497,13 @@
   (segment (start 51.7695 71.628) (end 52.2775 71.12) (width 0.25) (layer B.Cu) (net 4))
   (segment (start 51.232 71.628) (end 51.7695 71.628) (width 0.25) (layer B.Cu) (net 4))
   (segment (start 52.2775 71.12) (end 54.45 71.12) (width 0.25) (layer B.Cu) (net 4))
-  (segment (start 55.88 90.17) (end 68.58 90.17) (width 0.25) (layer F.Cu) (net 5))
-  (segment (start 68.58 90.17) (end 71.12 90.17) (width 0.25) (layer F.Cu) (net 5))
-  (segment (start 78.74 90.17) (end 90.17 90.17) (width 0.25) (layer F.Cu) (net 5))
-  (segment (start 90.17 90.17) (end 92.71 90.17) (width 0.25) (layer F.Cu) (net 5))
-  (segment (start 92.71 90.17) (end 95.25 90.17) (width 0.25) (layer F.Cu) (net 5))
-  (segment (start 95.25 90.17) (end 97.79 90.17) (width 0.25) (layer F.Cu) (net 5))
-  (segment (start 97.79 90.17) (end 100.33 90.17) (width 0.25) (layer F.Cu) (net 5))
+  (segment (start 56.515 93.98) (end 69.215 93.98) (width 0.25) (layer F.Cu) (net 5))
+  (segment (start 68.58 93.98) (end 71.12 93.98) (width 0.25) (layer F.Cu) (net 5))
+  (segment (start 78.74 93.98) (end 90.17 93.98) (width 0.25) (layer F.Cu) (net 5))
+  (segment (start 90.805 93.98) (end 93.345 93.98) (width 0.25) (layer F.Cu) (net 5))
+  (segment (start 92.71 93.98) (end 95.25 93.98) (width 0.25) (layer F.Cu) (net 5))
+  (segment (start 95.885 93.98) (end 98.425 93.98) (width 0.25) (layer F.Cu) (net 5))
+  (segment (start 98.425 93.98) (end 100.965 93.98) (width 0.25) (layer F.Cu) (net 5))
   (segment (start 54.45 68.58) (end 53.34 68.58) (width 0.25) (layer B.Cu) (net 5))
   (segment (start 53.035 68.275) (end 53.34 68.58) (width 0.25) (layer B.Cu) (net 5))
   (segment (start 52.07 68.275) (end 53.035 68.275) (width 0.25) (layer B.Cu) (net 5))
@@ -2513,12 +2514,6 @@
   (segment (start 58.547 50.038) (end 58.535 50.05) (width 0.25) (layer B.Cu) (net 5))
   (segment (start 66.88 68.58) (end 67.31 67.945) (width 0.5) (layer B.Cu) (net 5))
   (segment (start 65.88 68.58) (end 66.88 68.58) (width 0.5) (layer B.Cu) (net 5))
-  (segment (start 50.8 90.17) (end 49.7 90.17) (width 0.5) (layer B.Cu) (net 5))
-  (segment (start 49.7 90.17) (end 46.101 90.17) (width 0.5) (layer B.Cu) (net 5))
-  (segment (start 44.900009 88.969009) (end 44.900009 62.033991) (width 0.5) (layer B.Cu) (net 5))
-  (segment (start 46.101 90.17) (end 44.900009 88.969009) (width 0.5) (layer B.Cu) (net 5))
-  (segment (start 44.900009 62.033991) (end 45.466 61.468) (width 0.5) (layer B.Cu) (net 5))
-  (segment (start 45.466 61.468) (end 48.133 61.468) (width 0.5) (layer B.Cu) (net 5))
   (via (at 48.133 61.468) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 5))
   (segment (start 67.31 60.882) (end 67.31 60.882) (width 0.25) (layer B.Cu) (net 5) (tstamp 5C8A85E5))
   (segment (start 50.546 63.881) (end 55.822315 63.881) (width 0.5) (layer F.Cu) (net 5))
@@ -2538,20 +2533,20 @@
   (segment (start 67.31 57.278411) (end 70.740411 53.848) (width 0.5) (layer F.Cu) (net 5))
   (segment (start 81.402998 56.007) (end 86.741 56.007) (width 0.5) (layer F.Cu) (net 5))
   (segment (start 86.741 56.007) (end 87.809999 54.938001) (width 0.5) (layer F.Cu) (net 5))
-  (segment (start 101.6 90.17) (end 99.06 90.17) (width 0.5) (layer F.Cu) (net 5))
-  (segment (start 99.06 90.17) (end 96.52 90.17) (width 0.5) (layer F.Cu) (net 5))
-  (segment (start 96.52 90.17) (end 93.98 90.17) (width 0.5) (layer F.Cu) (net 5))
-  (segment (start 93.98 90.17) (end 91.44 90.17) (width 0.5) (layer F.Cu) (net 5))
-  (segment (start 91.44 90.17) (end 81.28 90.17) (width 0.5) (layer F.Cu) (net 5))
-  (segment (start 81.28 90.17) (end 78.74 90.17) (width 0.5) (layer F.Cu) (net 5))
-  (segment (start 78.74 90.17) (end 76.2 90.17) (width 0.5) (layer F.Cu) (net 5))
-  (segment (start 76.2 90.17) (end 73.66 90.17) (width 0.5) (layer F.Cu) (net 5))
-  (segment (start 73.66 90.17) (end 71.12 90.17) (width 0.5) (layer F.Cu) (net 5))
-  (segment (start 71.12 90.17) (end 60.96 90.17) (width 0.5) (layer F.Cu) (net 5))
-  (segment (start 60.96 90.17) (end 58.42 90.17) (width 0.5) (layer F.Cu) (net 5))
-  (segment (start 58.42 90.17) (end 55.88 90.17) (width 0.5) (layer F.Cu) (net 5))
-  (segment (start 55.88 90.17) (end 53.34 90.17) (width 0.5) (layer F.Cu) (net 5))
-  (segment (start 53.34 90.17) (end 50.8 90.17) (width 0.5) (layer F.Cu) (net 5))
+  (segment (start 101.6 93.98) (end 99.06 93.98) (width 0.5) (layer F.Cu) (net 5))
+  (segment (start 99.06 93.98) (end 96.52 93.98) (width 0.5) (layer F.Cu) (net 5))
+  (segment (start 96.52 93.98) (end 93.98 93.98) (width 0.5) (layer F.Cu) (net 5))
+  (segment (start 93.98 94) (end 91.44 94) (width 0.5) (layer F.Cu) (net 5))
+  (segment (start 91.44 93.98) (end 81.28 93.98) (width 0.5) (layer F.Cu) (net 5))
+  (segment (start 81.28 93.98) (end 78.74 93.98) (width 0.5) (layer F.Cu) (net 5))
+  (segment (start 78.74 93.98) (end 76.2 93.98) (width 0.5) (layer F.Cu) (net 5))
+  (segment (start 76.2 93.98) (end 73.66 93.98) (width 0.5) (layer F.Cu) (net 5))
+  (segment (start 73.66 93.98) (end 71.12 93.98) (width 0.5) (layer F.Cu) (net 5))
+  (segment (start 71.12 93.98) (end 60.96 93.98) (width 0.5) (layer F.Cu) (net 5))
+  (segment (start 60.96 93.98) (end 58.42 93.98) (width 0.5) (layer F.Cu) (net 5))
+  (segment (start 58.42 94) (end 55.88 94) (width 0.5) (layer F.Cu) (net 5))
+  (segment (start 55.88 93.98) (end 53.34 93.98) (width 0.5) (layer F.Cu) (net 5))
+  (segment (start 53.34 93.98) (end 50.8 93.98) (width 0.5) (layer F.Cu) (net 5))
   (segment (start 56.496007 60.343999) (end 56.896006 59.944) (width 0.5) (layer F.Cu) (net 5))
   (via (at 56.896006 59.944) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 5))
   (segment (start 58.547 57.600315) (end 56.896006 59.251309) (width 0.5) (layer B.Cu) (net 5))
@@ -2564,6 +2559,12 @@
   (segment (start 56.896006 59.944) (end 67.183 59.944) (width 0.5) (layer B.Cu) (net 5))
   (segment (start 67.183 59.944) (end 67.31 59.817) (width 0.5) (layer B.Cu) (net 5))
   (segment (start 67.31 60.882) (end 67.31 59.817) (width 0.5) (layer B.Cu) (net 5))
+  (segment (start 49.7 93.98) (end 50.8 93.98) (width 0.5) (layer B.Cu) (net 5))
+  (segment (start 46.101 93.98) (end 49.7 93.98) (width 0.5) (layer B.Cu) (net 5))
+  (segment (start 48.133 61.468) (end 45.466 61.468) (width 0.5) (layer B.Cu) (net 5))
+  (segment (start 45.466 61.468) (end 44.900009 62.033991) (width 0.5) (layer B.Cu) (net 5))
+  (segment (start 44.900009 92.779009) (end 46.101 93.98) (width 0.5) (layer B.Cu) (net 5))
+  (segment (start 44.900009 62.033991) (end 44.900009 92.779009) (width 0.5) (layer B.Cu) (net 5))
   (segment (start 51.8415 66.04) (end 51.816 66.0655) (width 0.25) (layer B.Cu) (net 6))
   (segment (start 54.45 66.04) (end 51.8415 66.04) (width 0.25) (layer B.Cu) (net 6))
   (segment (start 61.528 73.9395) (end 61.29 74.3295) (width 0.25) (layer F.Cu) (net 6))

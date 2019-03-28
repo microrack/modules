@@ -12,7 +12,7 @@
   (pad 3 thru_hole circle (at 2.5 0) (size 2 2) (drill 0.8) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0 0) (size 2 2) (drill 0.8) (layers *.Cu *.Mask))
   (pad 1 thru_hole roundrect (at -2.5 0) (size 2 2) (drill oval 0.8) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
-  (model ${KIPRJMOD}/../Library/footprint/3D/SPDT.wrl
+  (model ${KIPRJMOD}/../Library/footprint/3D/SMTS-102.step
     (offset (xyz -7.77 -2.3 0))
     (scale (xyz 0.4 0.4 0.4))
     (rotate (xyz 90 180 0))

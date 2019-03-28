@@ -1,4 +1,4 @@
-(module w3296w (layer F.Cu) (tedit 5C7A8D20)
+(module w3296w (layer F.Cu) (tedit 5C9C8799)
   (descr "Potentiometer, vertical, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf")
   (tags "Potentiometer vertical Bourns 3296W")
   (fp_text reference REF** (at -2.54 -3.66) (layer F.SilkS)
@@ -28,9 +28,9 @@
   (pad 1 thru_hole circle (at 0 0) (size 1.44 1.44) (drill 0.8) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -2.54 0) (size 1.44 1.44) (drill 0.8) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at -5.08 0) (size 1.44 1.44) (drill 0.8) (layers *.Cu *.Mask))
-  (model ${KIPRJMOD}/../Library/footprint/3D/3296w.wrl
-    (offset (xyz -2.5 2.5 5.5))
-    (scale (xyz 0.4 0.4 0.4))
-    (rotate (xyz -90 90 0))
+  (model ${KIPRJMOD}/../Library/footprint/3D/3296w.step
+    (offset (xyz -5 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 90))
   )
 )

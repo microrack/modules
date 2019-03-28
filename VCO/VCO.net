@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/maxx/Project/work/modules/VCO/VCO.sch)
-    (date "Чт 14 мар 2019 11:54:11")
+    (date "Чт 28 мар 2019 11:08:14")
     (tool "Eeschema 5.0.2-bee76a0~70~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block

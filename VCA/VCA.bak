@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:VCA-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -768,114 +769,92 @@ Wire Wire Line
 Wire Wire Line
 	3000 2450 3000 2500
 $Comp
-L uRack:Conn_01x03_Male J3
-U 1 1 5C86BCB0
-P 10050 3050
-F 0 "J3" H 10022 3073 50  0000 R CNN
-F 1 "Power" H 10022 2982 50  0000 R CNN
-F 2 "footprint:pls1x03" H 10050 3050 50  0001 C CNN
-F 3 "~" H 10050 3050 50  0001 C CNN
-	1    10050 3050
-	-1   0    0    -1  
-$EndComp
-$Comp
 L uRack:C C1
 U 1 1 5C86BDE2
-P 9100 2550
-F 0 "C1" H 9215 2596 50  0000 L CNN
-F 1 "0.1 uF" H 9215 2505 50  0000 L CNN
-F 2 "footprint:c0603" H 9138 2400 50  0001 C CNN
-F 3 "~" H 9100 2550 50  0001 C CNN
-	1    9100 2550
+P 900 5150
+F 0 "C1" H 1015 5196 50  0000 L CNN
+F 1 "0.1 uF" H 1015 5105 50  0000 L CNN
+F 2 "footprint:c0603" H 938 5000 50  0001 C CNN
+F 3 "~" H 900 5150 50  0001 C CNN
+	1    900  5150
 	1    0    0    -1  
 $EndComp
 $Comp
 L uRack:C C2
 U 1 1 5C86BE8A
-P 9100 3650
-F 0 "C2" H 9215 3696 50  0000 L CNN
-F 1 "0.1 uF" H 9215 3605 50  0000 L CNN
-F 2 "footprint:c0603" H 9138 3500 50  0001 C CNN
-F 3 "~" H 9100 3650 50  0001 C CNN
-	1    9100 3650
+P 900 6250
+F 0 "C2" H 1015 6296 50  0000 L CNN
+F 1 "0.1 uF" H 1015 6205 50  0000 L CNN
+F 2 "footprint:c0603" H 938 6100 50  0001 C CNN
+F 3 "~" H 900 6250 50  0001 C CNN
+	1    900  6250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9100 2700 9100 2750
+	900  5300 900  5350
 Wire Wire Line
-	9100 3400 9100 3450
+	900  6000 900  6050
 Wire Wire Line
-	9100 2750 9750 2750
+	900  5350 1550 5350
 Wire Wire Line
-	9750 2750 9750 2950
+	900  6050 1550 6050
+Connection ~ 900  6050
 Wire Wire Line
-	9750 2950 9850 2950
+	900  6050 900  6100
 Wire Wire Line
-	9100 3450 9750 3450
+	1350 5650 1350 6450
 Wire Wire Line
-	9750 3450 9750 3150
+	1350 6450 900  6450
 Wire Wire Line
-	9750 3150 9850 3150
-Connection ~ 9100 3450
+	900  6450 900  6400
 Wire Wire Line
-	9100 3450 9100 3500
+	1350 5650 1350 4900
 Wire Wire Line
-	9850 3050 9550 3050
+	1350 4900 900  4900
 Wire Wire Line
-	9550 3050 9550 3850
-Wire Wire Line
-	9550 3850 9100 3850
-Wire Wire Line
-	9100 3850 9100 3800
-Wire Wire Line
-	9550 3050 9550 2300
-Wire Wire Line
-	9550 2300 9100 2300
-Wire Wire Line
-	9100 2300 9100 2400
-Connection ~ 9550 3050
+	900  4900 900  5000
+Connection ~ 1350 5650
 $Comp
 L uRack:GNDREF #PWR014
 U 1 1 5C88D038
-P 9550 3950
-F 0 "#PWR014" H 9550 3700 50  0001 C CNN
-F 1 "GNDREF" H 9555 3777 50  0001 C CNN
-F 2 "" H 9550 3950 50  0001 C CNN
-F 3 "" H 9550 3950 50  0001 C CNN
-	1    9550 3950
+P 1350 6550
+F 0 "#PWR014" H 1350 6300 50  0001 C CNN
+F 1 "GNDREF" H 1355 6377 50  0001 C CNN
+F 2 "" H 1350 6550 50  0001 C CNN
+F 3 "" H 1350 6550 50  0001 C CNN
+	1    1350 6550
 	1    0    0    -1  
 $EndComp
 $Comp
 L uRack:+5V #PWR010
 U 1 1 5C88D0AF
-P 9750 2650
-F 0 "#PWR010" H 9750 2500 50  0001 C CNN
-F 1 "+5V" H 9765 2823 50  0000 C CNN
-F 2 "" H 9750 2650 50  0001 C CNN
-F 3 "" H 9750 2650 50  0001 C CNN
-	1    9750 2650
+P 1550 5250
+F 0 "#PWR010" H 1550 5100 50  0001 C CNN
+F 1 "+5V" H 1565 5423 50  0000 C CNN
+F 2 "" H 1550 5250 50  0001 C CNN
+F 3 "" H 1550 5250 50  0001 C CNN
+	1    1550 5250
 	1    0    0    -1  
 $EndComp
 $Comp
 L uRack:-5V #PWR013
 U 1 1 5C88D126
-P 9750 3550
-F 0 "#PWR013" H 9750 3650 50  0001 C CNN
-F 1 "-5V" H 9765 3723 50  0000 C CNN
-F 2 "" H 9750 3550 50  0001 C CNN
-F 3 "" H 9750 3550 50  0001 C CNN
-	1    9750 3550
+P 1550 6150
+F 0 "#PWR013" H 1550 6250 50  0001 C CNN
+F 1 "-5V" H 1565 6323 50  0000 C CNN
+F 2 "" H 1550 6150 50  0001 C CNN
+F 3 "" H 1550 6150 50  0001 C CNN
+	1    1550 6150
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9750 2650 9750 2750
-Connection ~ 9750 2750
+	1550 5250 1550 5350
 Wire Wire Line
-	9750 3550 9750 3450
-Connection ~ 9750 3450
+	1550 6150 1550 6050
+Connection ~ 1550 6050
 Wire Wire Line
-	9550 3950 9550 3850
-Connection ~ 9550 3850
+	1350 6550 1350 6450
+Connection ~ 1350 6450
 Text Label 8700 1250 0    50   ~ 0
 OUT_1
 Text Label 8700 1550 0    50   ~ 0
@@ -894,15 +873,15 @@ Text Label 1650 3100 0    50   ~ 0
 ENV_2
 Text Label 1650 3200 0    50   ~ 0
 ENV_3
-Text Label 9350 2700 0    50   ~ 0
+Text Label 1150 5300 0    50   ~ 0
 +5V
-Text Label 9350 3400 0    50   ~ 0
+Text Label 1150 6000 0    50   ~ 0
 -5V
-Text Label 9350 3800 0    50   ~ 0
+Text Label 1150 6400 0    50   ~ 0
 GND
-Connection ~ 9100 2750
+Connection ~ 900  5350
 Wire Wire Line
-	9100 2750 9100 2800
+	900  5350 900  5400
 $Comp
 L uRack:LM324 U1
 U 2 1 5C74A7BE
@@ -930,7 +909,7 @@ F 1 "LM324" H 4200 2226 50  0000 C CNN
 F 2 "footprint:soic-14" H 4150 2050 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 4250 2150 50  0001 C CNN
 	1    4200 1950
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L uRack:LM324 U1
@@ -941,17 +920,344 @@ F 1 "LM324" H 3550 3276 50  0000 C CNN
 F 2 "footprint:soic-14" H 3500 3100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 3600 3200 50  0001 C CNN
 	3    3550 3000
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L uRack:LM324 U1
 U 5 1 5C79E6D4
-P 9200 3100
-F 0 "U1" H 9158 3146 50  0000 L CNN
-F 1 "LM324" H 9158 3055 50  0000 L CNN
-F 2 "footprint:soic-14" H 9150 3200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 9250 3300 50  0001 C CNN
-	5    9200 3100
+P 1000 5700
+F 0 "U1" H 958 5746 50  0000 L CNN
+F 1 "LM324" H 958 5655 50  0000 L CNN
+F 2 "footprint:soic-14" H 950 5800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 1050 5900 50  0001 C CNN
+	5    1000 5700
 	1    0    0    -1  
 $EndComp
+$Comp
+L uRack:Conn_01x05_Male J?
+U 1 1 5C9D6F13
+P 3700 4050
+F 0 "J?" H 3673 3980 50  0000 R CNN
+F 1 "Conn_01x05_Male" H 3673 4071 50  0000 R CNN
+F 2 "" H 3700 4050 50  0001 C CNN
+F 3 "" H 3700 4050 50  0001 C CNN
+	1    3700 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L uRack:Conn_01x05_Male J?
+U 1 1 5C9D702F
+P 3700 4550
+F 0 "J?" H 3673 4480 50  0000 R CNN
+F 1 "Conn_01x05_Male" H 3673 4571 50  0000 R CNN
+F 2 "" H 3700 4550 50  0001 C CNN
+F 3 "" H 3700 4550 50  0001 C CNN
+	1    3700 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L uRack:Conn_01x05_Male J?
+U 1 1 5C9D7124
+P 3700 5050
+F 0 "J?" H 3673 4980 50  0000 R CNN
+F 1 "Conn_01x05_Male" H 3673 5071 50  0000 R CNN
+F 2 "" H 3700 5050 50  0001 C CNN
+F 3 "" H 3700 5050 50  0001 C CNN
+	1    3700 5050
+	-1   0    0    1   
+$EndComp
+$Comp
+L uRack:Conn_01x05_Male J?
+U 1 1 5C9D71FC
+P 3200 5450
+F 0 "J?" H 3173 5380 50  0000 R CNN
+F 1 "Conn_01x05_Male" H 3173 5471 50  0000 R CNN
+F 2 "" H 3200 5450 50  0001 C CNN
+F 3 "" H 3200 5450 50  0001 C CNN
+	1    3200 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L uRack:Conn_01x05_Male J?
+U 1 1 5C9D72D9
+P 3200 5950
+F 0 "J?" H 3173 5880 50  0000 R CNN
+F 1 "Conn_01x05_Male" H 3173 5971 50  0000 R CNN
+F 2 "" H 3200 5950 50  0001 C CNN
+F 3 "" H 3200 5950 50  0001 C CNN
+	1    3200 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L uRack:Conn_01x05_Male J?
+U 1 1 5C9D73D7
+P 3200 6450
+F 0 "J?" H 3173 6380 50  0000 R CNN
+F 1 "Conn_01x05_Male" H 3173 6471 50  0000 R CNN
+F 2 "" H 3200 6450 50  0001 C CNN
+F 3 "" H 3200 6450 50  0001 C CNN
+	1    3200 6450
+	-1   0    0    1   
+$EndComp
+$Comp
+L uRack:Conn_01x05_Male J?
+U 1 1 5CA0C275
+P 3700 6100
+F 0 "J?" H 3673 6030 50  0000 R CNN
+F 1 "Conn_01x05_Male" H 3673 6121 50  0000 R CNN
+F 2 "" H 3700 6100 50  0001 C CNN
+F 3 "" H 3700 6100 50  0001 C CNN
+	1    3700 6100
+	-1   0    0    1   
+$EndComp
+$Comp
+L uRack:Conn_01x05_Male J?
+U 1 1 5CA0C343
+P 3700 6600
+F 0 "J?" H 3673 6530 50  0000 R CNN
+F 1 "Conn_01x05_Male" H 3673 6621 50  0000 R CNN
+F 2 "" H 3700 6600 50  0001 C CNN
+F 3 "" H 3700 6600 50  0001 C CNN
+	1    3700 6600
+	-1   0    0    1   
+$EndComp
+$Comp
+L uRack:Conn_01x05_Male J?
+U 1 1 5CA0C41E
+P 3700 7100
+F 0 "J?" H 3673 7030 50  0000 R CNN
+F 1 "Conn_01x05_Male" H 3673 7121 50  0000 R CNN
+F 2 "" H 3700 7100 50  0001 C CNN
+F 3 "" H 3700 7100 50  0001 C CNN
+	1    3700 7100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3500 5250 3400 5250
+Wire Wire Line
+	3400 5250 3400 5150
+Wire Wire Line
+	3400 3850 3500 3850
+Wire Wire Line
+	3500 5900 3450 5900
+Wire Wire Line
+	3450 5900 3450 6000
+Wire Wire Line
+	3450 7300 3500 7300
+Wire Wire Line
+	3000 6650 2950 6650
+Wire Wire Line
+	2950 6650 2950 6550
+Wire Wire Line
+	2950 5250 3000 5250
+Wire Wire Line
+	3000 5350 2950 5350
+Connection ~ 2950 5350
+Wire Wire Line
+	2950 5350 2950 5250
+Wire Wire Line
+	3000 5450 2950 5450
+Connection ~ 2950 5450
+Wire Wire Line
+	2950 5450 2950 5350
+Wire Wire Line
+	3000 5550 2950 5550
+Connection ~ 2950 5550
+Wire Wire Line
+	2950 5550 2950 5450
+Wire Wire Line
+	3000 5650 2950 5650
+Connection ~ 2950 5650
+Wire Wire Line
+	2950 5650 2950 5550
+Wire Wire Line
+	3000 5750 2950 5750
+Connection ~ 2950 5750
+Wire Wire Line
+	2950 5750 2950 5650
+Wire Wire Line
+	3000 5850 2950 5850
+Connection ~ 2950 5850
+Wire Wire Line
+	2950 5850 2950 5750
+Wire Wire Line
+	3000 5950 2950 5950
+Connection ~ 2950 5950
+Wire Wire Line
+	2950 5950 2950 5850
+Wire Wire Line
+	3000 6050 2950 6050
+Connection ~ 2950 6050
+Wire Wire Line
+	2950 6050 2950 5950
+Wire Wire Line
+	3000 6150 2950 6150
+Connection ~ 2950 6150
+Wire Wire Line
+	2950 6150 2950 6050
+Wire Wire Line
+	3000 6250 2950 6250
+Connection ~ 2950 6250
+Wire Wire Line
+	2950 6250 2950 6150
+Wire Wire Line
+	3000 6350 2950 6350
+Connection ~ 2950 6350
+Wire Wire Line
+	2950 6350 2950 6250
+Wire Wire Line
+	3000 6450 2950 6450
+Connection ~ 2950 6450
+Wire Wire Line
+	2950 6450 2950 6350
+Wire Wire Line
+	3000 6550 2950 6550
+Connection ~ 2950 6550
+Wire Wire Line
+	2950 6550 2950 6450
+Wire Wire Line
+	3500 7200 3450 7200
+Connection ~ 3450 7200
+Wire Wire Line
+	3450 7200 3450 7300
+Wire Wire Line
+	3500 7100 3450 7100
+Connection ~ 3450 7100
+Wire Wire Line
+	3450 7100 3450 7200
+Wire Wire Line
+	3450 7000 3500 7000
+Connection ~ 3450 7000
+Wire Wire Line
+	3450 7000 3450 7100
+Wire Wire Line
+	3500 6900 3450 6900
+Connection ~ 3450 6900
+Wire Wire Line
+	3450 6900 3450 7000
+Wire Wire Line
+	3500 6800 3450 6800
+Connection ~ 3450 6800
+Wire Wire Line
+	3450 6800 3450 6900
+Wire Wire Line
+	3500 6700 3450 6700
+Connection ~ 3450 6700
+Wire Wire Line
+	3450 6700 3450 6800
+Wire Wire Line
+	3500 6600 3450 6600
+Connection ~ 3450 6600
+Wire Wire Line
+	3450 6600 3450 6700
+Wire Wire Line
+	3500 6500 3450 6500
+Connection ~ 3450 6500
+Wire Wire Line
+	3450 6500 3450 6600
+Wire Wire Line
+	3500 6400 3450 6400
+Connection ~ 3450 6400
+Wire Wire Line
+	3450 6400 3450 6500
+Wire Wire Line
+	3500 6300 3450 6300
+Connection ~ 3450 6300
+Wire Wire Line
+	3450 6300 3450 6400
+Wire Wire Line
+	3500 6200 3450 6200
+Connection ~ 3450 6200
+Wire Wire Line
+	3450 6200 3450 6300
+Wire Wire Line
+	3500 6100 3450 6100
+Connection ~ 3450 6100
+Wire Wire Line
+	3450 6100 3450 6200
+Wire Wire Line
+	3500 6000 3450 6000
+Connection ~ 3450 6000
+Wire Wire Line
+	3450 6000 3450 6100
+Wire Wire Line
+	3500 3950 3400 3950
+Connection ~ 3400 3950
+Wire Wire Line
+	3400 3950 3400 3850
+Wire Wire Line
+	3500 4050 3400 4050
+Connection ~ 3400 4050
+Wire Wire Line
+	3400 4050 3400 3950
+Wire Wire Line
+	3400 4150 3500 4150
+Connection ~ 3400 4150
+Wire Wire Line
+	3400 4150 3400 4050
+Wire Wire Line
+	3500 4250 3400 4250
+Connection ~ 3400 4250
+Wire Wire Line
+	3400 4250 3400 4150
+Wire Wire Line
+	3500 4350 3400 4350
+Connection ~ 3400 4350
+Wire Wire Line
+	3400 4350 3400 4250
+Wire Wire Line
+	3500 4450 3400 4450
+Connection ~ 3400 4450
+Wire Wire Line
+	3400 4450 3400 4350
+Wire Wire Line
+	3500 4550 3400 4550
+Connection ~ 3400 4550
+Wire Wire Line
+	3400 4550 3400 4450
+Wire Wire Line
+	3500 4650 3400 4650
+Connection ~ 3400 4650
+Wire Wire Line
+	3400 4650 3400 4550
+Wire Wire Line
+	3500 4750 3400 4750
+Connection ~ 3400 4750
+Wire Wire Line
+	3400 4750 3400 4650
+Wire Wire Line
+	3500 4850 3400 4850
+Connection ~ 3400 4850
+Wire Wire Line
+	3400 4850 3400 4750
+Wire Wire Line
+	3500 4950 3400 4950
+Connection ~ 3400 4950
+Wire Wire Line
+	3400 4950 3400 4850
+Wire Wire Line
+	3500 5050 3400 5050
+Connection ~ 3400 5050
+Wire Wire Line
+	3400 5050 3400 4950
+Wire Wire Line
+	3500 5150 3400 5150
+Connection ~ 3400 5150
+Wire Wire Line
+	3400 5150 3400 5050
+Wire Wire Line
+	1550 5350 2350 5350
+Wire Wire Line
+	2350 5350 2350 4650
+Wire Wire Line
+	2350 4650 3400 4650
+Connection ~ 1550 5350
+Wire Wire Line
+	1350 5650 2950 5650
+Wire Wire Line
+	1550 6050 2350 6050
+Wire Wire Line
+	2350 6050 2350 7100
+Wire Wire Line
+	2350 7100 3450 7100
 $EndSCHEMATC
