@@ -9,7 +9,7 @@ MICRORACK modules are compact synthesizer building blocks following the [MICRORA
 ## Generators
 
 - [**mod-vco**](mod-vco/) - Voltage Controlled Oscillator with LFO mode
-- [**mod-noise**](mod-noise/) - Noise Generator
+- [**mod-noise**](mod-noise/) - Noise Generator with Sample/Track & Hold
 - [**mod-env**](mod-env/) - Envelope Generator
 - [**mod-seq**](mod-seq/) - 4-Step Sequencer
 
