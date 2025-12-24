@@ -1,4 +1,4 @@
-name: Trigger Deploy on Master Push
+name: Sync Markdown to Site Branch
 
 on:
   push:
@@ -7,17 +7,107 @@ on:
   workflow_dispatch:
 
 permissions:
+  contents: write
   actions: write
-  contents: read
 
 jobs:
-  trigger-deploy:
+  sync:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout master branch
         uses: actions/checkout@v4
-        
+        with:
+          ref: master
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Sync markdown files to site branch
+        run: |
+          # Fetch all branches
+          git fetch origin
+
+          # Check if site branch exists
+          if git show-ref --verify --quiet refs/remotes/origin/site; then
+            git checkout site
+            git pull origin site
+          else
+            echo "Error: site branch does not exist. Please create it first."
+            exit 1
+          fi
+
+          # Get the conversion script from site branch
+          CONVERT_SCRIPT="scripts/convert_admonitions.py"
+
+          # Sync README.md from master root -> docs/index.md
+          # Convert GitHub markdown to MkDocs format (folder links to .md links)
+          git show master:README.md | sed \
+            -e 's|\](mod-clk/)|](mod-clk/README.md)|g' \
+            -e 's|\](mod-comp/)|](mod-comp/README.md)|g' \
+            -e 's|\](mod-delay/)|](mod-delay/README.md)|g' \
+            -e 's|\](mod-env/)|](mod-env/README.md)|g' \
+            -e 's|\](mod-eq/)|](mod-eq/README.md)|g' \
+            -e 's|\](mod-in-63/)|](mod-in-63/README.md)|g' \
+            -e 's|\](mod-jacket/)|](mod-jacket/README.md)|g' \
+            -e 's|\](mod-key/)|](mod-key/README.md)|g' \
+            -e 's|\](mod-lpg/)|](mod-lpg/README.md)|g' \
+            -e 's|\](mod-midi/)|](mod-midi/README.md)|g' \
+            -e 's|\](mod-mix/)|](mod-mix/README.md)|g' \
+            -e 's|\](mod-noise/)|](mod-noise/README.md)|g' \
+            -e 's|\](mod-out-35/)|](mod-out-35/README.md)|g' \
+            -e 's|\](mod-out-63/)|](mod-out-63/README.md)|g' \
+            -e 's|\](mod-sat/)|](mod-sat/README.md)|g' \
+            -e 's|\](mod-seq/)|](mod-seq/README.md)|g' \
+            -e 's|\](mod-vcf/)|](mod-vcf/README.md)|g' \
+            -e 's|\](mod-vco/)|](mod-vco/README.md)|g' \
+            | python3 "$CONVERT_SCRIPT" > docs/index.md
+
+          # Sync LICENSE.md from master root -> docs/LICENSE.md
+          git show master:LICENSE.md > docs/LICENSE.md 2>/dev/null || true
+
+          # List of module directories
+          MODULES="mod-clk mod-comp mod-delay mod-env mod-eq mod-in-63 mod-jacket mod-key mod-lpg mod-midi mod-mix mod-noise mod-out-35 mod-out-63 mod-sat mod-seq mod-vcf mod-vco"
+
+          # Sync each module's README.md and images
+          for mod in $MODULES; do
+            mkdir -p "docs/$mod"
+            
+            # Sync README.md with admonition conversion
+            if git show "master:$mod/README.md" > /dev/null 2>&1; then
+              git show "master:$mod/README.md" | python3 "$CONVERT_SCRIPT" > "docs/$mod/README.md"
+            fi
+            
+            # Sync images
+            for ext in png jpg jpeg gif svg webp; do
+              for file in $(git ls-tree --name-only "master:$mod/" 2>/dev/null | grep -E "\.$ext$" || true); do
+                git show "master:$mod/$file" > "docs/$mod/$file"
+              done
+            done
+          done
+
+          # Stage all changes
+          git add -A
+
+          # Commit and push if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            echo "CHANGES_MADE=false" >> $GITHUB_ENV
+          else
+            git commit -m "Sync markdown files from master"
+            git push origin site
+            echo "CHANGES_MADE=true" >> $GITHUB_ENV
+          fi
+
       - name: Trigger deploy workflow
+        if: env.CHANGES_MADE == 'true'
         run: |
           gh workflow run deploy.yml --ref site
         env:

@@ -1,15 +1,27 @@
 # Modules
 
-MICRORACK modules are compact synthesizer building blocks following the [MICRORACK Specification](https://specs.microrack.org/).
+MICRORACK modules are compact synthesizer building blocks following the [MICRORACK Specification](https://microrack.github.io/specs-test/).
 
 > **Open Platform**
 >
 > Any enthusiast or brand can create and distribute compatible modules — as open source projects or as closed source designs.
 
+## Versioning
+
+For convenience MICRORACK modules are versioned in semver-like fashion (e.g. v1.0 -> v1.1) an current version is placed on the bottom side of all boards.
+
+Manufacturers, enthusiasts and MICRORACK team itself may add minor improvements to some module designs over time.
+
+## Consistent Platform
+
+New creative modules and accessories may emerge but main system standards remains the same across manufacturers and enthusiasts.
+
+MICRORACK Specification provides stable design foundations for seamless experience across designs, while building blocks variability grows with community and further enriching your setups.
+
 ## Generators
 
 - [**mod-vco**](mod-vco/) - Voltage Controlled Oscillator with LFO mode
-- [**mod-noise**](mod-noise/) - Noise Generator with Sample/Track & Hold
+- [**mod-noise**](mod-noise/) - Noise Generator
 - [**mod-env**](mod-env/) - Envelope Generator
 - [**mod-seq**](mod-seq/) - 4-Step Sequencer
 
@@ -43,5 +55,5 @@ MICRORACK modules are compact synthesizer building blocks following the [MICRORA
 > [github.com/microrack/modules](https://github.com/microrack/modules)
 
 - [Documentation](https://docs.microrack.org) - User guides and documentation
-- [Specification](https://specs.microrack.org) - Technical specifications
+- [Specification](https://docs.microrack.org/specification/) - Technical specifications
 - [Forum](https://forum.microrack.org) - Community discussions
