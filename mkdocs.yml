@@ -1,0 +1,80 @@
+site_name: Modules
+site_url: https://modules.microrack.org
+site_description: MICRORACK compatible modules catalog
+site_author: MICRORACK
+repo_name: microrack/modules
+repo_url: https://github.com/microrack/modules
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/icon.png
+  palette:
+  - media: '(prefers-color-scheme: light)'
+    scheme: default
+    primary: deep purple
+    accent: green
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+  - media: '(prefers-color-scheme: dark)'
+    scheme: slate
+    primary: deep purple
+    accent: green
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode
+  features:
+  - navigation.tabs
+  - navigation.sections
+  - navigation.top
+  - navigation.tracking
+  - search.suggest
+  - search.highlight
+  - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+plugins:
+- search
+markdown_extensions:
+- pymdownx.highlight:
+    anchor_linenums: true
+- pymdownx.inlinehilite
+- pymdownx.snippets
+- pymdownx.superfences
+- pymdownx.tabbed:
+    alternate_style: true
+- pymdownx.details
+- admonition
+- tables
+- attr_list
+- toc:
+    permalink: true
+extra:
+  generator: false
+extra_css:
+- assets/extra.css
+extra_javascript:
+- assets/extra.js
+copyright: 'Copyright &copy; 2019-2025 MICRORACK | This documentation is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>'
+docs_dir: docs
+nav:
+  - Modules:
+    - Modules: index.md
+    - counter: mod-clk/README.md
+    - compressor: mod-comp/README.md
+    - delay: mod-delay/README.md
+    - envelope: mod-env/README.md
+    - EQ: mod-eq/README.md
+    - input 6.3: mod-in-63/README.md
+    - jacket 3.5: mod-jacket/README.md
+    - stylo: mod-key/README.md
+    - lowpass gate: mod-lpg/README.md
+    - midi→cv: mod-midi/README.md
+    - vca mixer: mod-mix/README.md
+    - noise + s&h: mod-noise/README.md
+    - output 3.5: mod-out-35/README.md
+    - output 6.3: mod-out-63/README.md
+    - saturator: mod-sat/README.md
+    - sequencer: mod-seq/README.md
+    - filter: mod-vcf/README.md
+    - oscillator: mod-vco/README.md

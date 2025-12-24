@@ -1,0 +1,24 @@
+# Build artifacts
+site/
+
+# Content fetched from master during build
+docs/mod-*/
+docs/index.md
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
