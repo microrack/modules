@@ -1,0 +1,24 @@
+name: Trigger Deploy on Master Push
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  trigger-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Trigger deploy workflow
+        run: |
+          gh workflow run deploy.yml --ref site
+        env:
+          GH_TOKEN: ${{ github.token }}
