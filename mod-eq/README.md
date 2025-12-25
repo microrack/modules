@@ -9,6 +9,10 @@
 5. mid level (±10 dB @ 2.5kHz)
 6. low level (±15 dB @ 80 Hz)
 
+# Description
+
+Classic three-band equalizer with low, mid, and high frequency controls for shaping the tonal balance of your signal. Each band can be boosted or cut to fine-tune the mix.
+
 ## Power consumption
 
 216 mW

@@ -11,9 +11,26 @@
 7. right channel signal level
 8. +5 V pull-up (phantom power)
 
-CV mode
-CV on: no DC block
-CV off: DC block
+## Description
+
+Stereo input preamplifier with wide gain range from -∞ to +60 dB. Features a +5V pull-up switch for powering electret microphones and expression pedals, and a CV/DC block mode switch for handling both audio and control voltage signals.
+
+Each channel has 3 output pins and a signal level indicator.
+
+- **CV mode on**: no DC blocking, passes DC offset (for CV sources)
+- **CV mode off**: DC blocking enabled (for audio signals)
+
+## Signal type reference
+
+| Signal type | +5V | CV mode | Gain |
+|-------------|-----|---------|------|
+| Line input | off | off | low |
+| Dynamic/piezo mic | off | off | high |
+| Electret mic | on | off | high |
+| CV source | off | on | as needed |
+| Sustain/expression pedal | on | on | low |
+
+**Note:** Condenser microphones requiring 48V phantom power are not supported.
 
 ## Power consumption
 
