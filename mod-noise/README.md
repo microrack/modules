@@ -2,6 +2,16 @@
 
 <img src="mod-noise.png" width="245">
 
+## Interface
+
+1. T&H/S&H signal input
+2. tracking gate input
+3. pink noise output
+4. blue noise output
+5. sampling trigger input
+6. T&H/S&H signal output
+7. manual tracking touch pad
+
 This module contains two independent sections: a noise generator and a track & hold / sample & hold circuit.
 
 ## Noise generator
@@ -24,16 +34,6 @@ When a gate signal is applied to the **tracking gate input**, the circuit contin
 When a trigger is applied to the **sampling trigger input**, the circuit instantly samples the current input voltage and holds it until the next trigger. This creates the classic "stepped random" effect when used with a noise source, or can be used to quantize continuous signals in time.
 
 A **touch pad** is provided for manually injecting a track gate, allowing hands-on interaction with the T&H function.
-
-## Interface
-
-1. T&H/S&H signal input
-2. tracking gate input
-3. pink noise output
-4. blue noise output
-5. sampling trigger input
-6. T&H/S&H signal output
-7. manual tracking touch pad
 
 ## Power consumption
 
