@@ -11,3 +11,7 @@
 ## Power consumption
 
 300 mW
+
+## Schematic
+
+[Schematic_MOD-KEY-1.1_2025-05-21.pdf](Schematic_MOD-KEY-1.1_2025-05-21.pdf)

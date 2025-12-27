@@ -31,3 +31,7 @@ The **envelope follower output [8]** provides the detected envelope signal, whic
 ## Power consumption
 
 300 mW
+
+## Schematic
+
+[Schematic_MOD-COMP-1.1_2025-05-21.pdf](Schematic_MOD-COMP-1.1_2025-05-21.pdf)

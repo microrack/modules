@@ -12,3 +12,7 @@
 ## Power consumption
 
 348 mW
+
+## Schematic
+
+[Schematic_MOD-SAT-1.2_2025-05-21.pdf](Schematic_MOD-SAT-1.2_2025-05-21.pdf)

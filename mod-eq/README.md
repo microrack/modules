@@ -12,3 +12,7 @@
 ## Power consumption
 
 216 mW
+
+## Schematic
+
+[Schematic_MOD-EQ-1.1_2025-05-21.pdf](Schematic_MOD-EQ-1.1_2025-05-21.pdf)

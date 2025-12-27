@@ -13,3 +13,7 @@
 ## Power consumption
 
 420 mW
+
+## Schematic
+
+[Schematic_MOD-NOISE-1.3_2025-05-21.pdf](Schematic_MOD-NOISE-1.3_2025-05-21.pdf)

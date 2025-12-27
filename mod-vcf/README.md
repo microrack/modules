@@ -13,3 +13,7 @@
 ## Power consumption
 
 540 mW
+
+## Schematic
+
+[Schematic_MOD-VCF-1.1_2025-05-21.pdf](Schematic_MOD-VCF-1.1_2025-05-21.pdf)

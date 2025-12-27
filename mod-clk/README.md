@@ -30,3 +30,7 @@ Step outputs are active-low diodes with pull-down resistors, which means they ca
 ## Power consumption
 
 300 mW
+
+## Schematic
+
+[Schematic_MOD-CLK-1.1_2025-05-21.pdf](Schematic_MOD-CLK-1.1_2025-05-21.pdf)
