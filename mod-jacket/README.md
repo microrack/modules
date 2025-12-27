@@ -8,3 +8,7 @@
 ## Power consumption
 
 24 mW
+
+## Schematic
+
+[Schematic_jacket-1.0_2025-05-21.pdf](Schematic_jacket-1.0_2025-05-21.pdf)

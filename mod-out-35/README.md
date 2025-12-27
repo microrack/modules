@@ -15,3 +15,7 @@
 ## Power consumption
 
 1740 mW
+
+## Schematic
+
+[Schematic_MOD-OUT-1.2_2025-05-21.pdf](Schematic_MOD-OUT-1.2_2025-05-21.pdf)

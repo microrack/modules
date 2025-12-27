@@ -20,3 +20,7 @@
 ## Power consumption
 
 660 mW
+
+## Schematic
+
+[Schematic_MOD-ESP-1.2_2025-05-21.pdf](Schematic_MOD-ESP-1.2_2025-05-21.pdf)

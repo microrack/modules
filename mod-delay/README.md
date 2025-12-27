@@ -28,3 +28,7 @@ The send/return pair acts as an insert point for the feedback loop. When nothing
 ## Power consumption
 
 852 mW
+
+## Schematic
+
+[Schematic_MOD-DELAY-1.1_2025-05-21.pdf](Schematic_MOD-DELAY-1.1_2025-05-21.pdf)

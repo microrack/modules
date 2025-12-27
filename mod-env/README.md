@@ -36,3 +36,7 @@ The EOC output goes high when the envelope output reaches zero. This can be used
 ## Power consumption
 
 456 mW
+
+## Schematic
+
+[Schematic_MOD-ENV-1.3_2025-05-21.pdf](Schematic_MOD-ENV-1.3_2025-05-21.pdf)

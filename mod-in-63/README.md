@@ -18,3 +18,7 @@ CV off: DC block
 ## Power consumption
 
 348 mW
+
+## Schematic
+
+[Schematic_MOD-IN-63-1.1_2025-05-21.pdf](Schematic_MOD-IN-63-1.1_2025-05-21.pdf)
