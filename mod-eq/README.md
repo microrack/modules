@@ -13,6 +13,10 @@
 
 Classic three-band equalizer with low, mid, and high frequency controls for shaping the tonal balance of your signal. Each band can be boosted or cut to fine-tune the mix.
 
+## Schematic
+
+[Schematic](mod-eq-1.1.pdf)
+
 ## Power consumption
 
 216 mW

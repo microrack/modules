@@ -39,3 +39,7 @@ The **depth knob** is an attenuverter that controls how much the CV affects the 
 ## Power consumption
 
 540 mW
+
+## Schematic
+
+[Schematic](mod-vcf-1.1.pdf)

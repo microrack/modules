@@ -71,3 +71,7 @@ The **sync input** resets the oscillator's waveform cycle when it receives a tri
 ## Power consumption
 
 732 mW
+
+## Schematic
+
+[Schematic](mod-vco-1.2.pdf)

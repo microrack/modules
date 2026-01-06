@@ -26,3 +26,7 @@ The module can operate in two modes, selected by a switch:
 ## Power consumption
 
 780 mW
+
+## Schematic
+
+[Schematic](mod-out-1.2.pdf)
