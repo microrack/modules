@@ -33,6 +33,10 @@ The EOC output goes high when the envelope output reaches zero. This can be used
 
 *todo cycle patch*
 
+## Schematic
+
+[Schematic](mod-env-1.3.pdf)
+
 ## Power consumption
 
 456 mW

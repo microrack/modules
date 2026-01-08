@@ -38,3 +38,7 @@ A **touch pad** is provided for manually injecting a track gate, allowing hands-
 ## Power consumption
 
 420 mW
+
+## Schematic
+
+[Schematic](mod-noise-1.3.pdf)

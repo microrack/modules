@@ -28,6 +28,10 @@ The gate can be controlled in three ways:
 - **LPG mode**: more resonance, classic lowpass gate sound
 - **Combo mode**: closer to VCA behavior with more high frequencies passing through
 
+## Schematic
+
+[Schematic](mod-lpg-1.2.pdf)
+
 ## Power consumption
 
 384 mW

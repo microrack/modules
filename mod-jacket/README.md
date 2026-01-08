@@ -14,3 +14,7 @@ Use it to send signals from microrack to a modular system, or to receive signals
 ## Power consumption
 
 24 mW
+
+## Schematic
+
+[Schematic](mod-jacket-1.0.pdf)

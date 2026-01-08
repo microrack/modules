@@ -57,3 +57,7 @@ Multiple sequencers can be connected via the **chain connector** to extend the s
 ## Power consumption
 
 420 mW
+
+## Schematic
+
+[Schematic](mod-seq-1.3.pdf)
