@@ -61,3 +61,7 @@ PCB antenna for WiFi and Bluetooth.
 ## Power consumption
 
 660 mW
+
+## Schematic
+
+[Schematic](mod-esp-1.2.pdf)

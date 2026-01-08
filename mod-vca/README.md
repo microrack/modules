@@ -35,3 +35,7 @@ The module provides **+5V** and **−5V** reference outputs, useful for offsetti
 ## Power consumption
 
 1020 mW
+
+## Schematic
+
+[Schematic](mod-mix-1.2.pdf)

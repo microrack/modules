@@ -35,3 +35,7 @@ Each channel has 3 output pins and a signal level indicator.
 ## Power consumption
 
 348 mW
+
+## Schematic
+
+[Schematic](mod-in-63-1.1.pdf)

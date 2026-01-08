@@ -39,3 +39,7 @@ For maximum speaker volume, use stereo mode and route your signal to the right c
 ## Power consumption
 
 1740 mW
+
+## Schematic
+
+[Schematic](mod-out-1.2.pdf)
