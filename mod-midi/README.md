@@ -2,8 +2,6 @@
 
 <img src="mod-midi.png" width="465">
 
-[Firmware Flasher](https://microrack.org/resources/flasher)
-
 1. reset button
 2. digital IO (Do not connect microrack signals!)
 3. digital IO (Do not connect microrack signals!)
@@ -22,6 +20,8 @@
 ## Description
 
 ESP32-D0 based programmable module with 4 MB flash, MIDI input, analog I/O, and user interface.
+
+Use our [Web Firmware Flasher](https://microrack.org/resources/flasher) to update the firmware *(works **only in chrome-based** browsers).*
 
 ### Analog inputs (pins 36, 37)
 
@@ -55,6 +55,8 @@ Some ESP32 pins are directly exposed without any protection circuitry. Only 0–
 ### USB and programming
 
 CP2102 USB-UART converter connected to the main ESP32 UART. DTR/RTS lines are wired for automatic bootloader mode entry via esptool/Arduino IDE. Use for firmware updates and serial communication.
+
+[Web Firmware Flasher](https://microrack.org/resources/flasher) *(works **only in chrome-based** browsers)*
 
 ### Wireless
 
