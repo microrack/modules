@@ -2,6 +2,8 @@
 
 <img src="mod-midi.png" width="465">
 
+[Firmware Flasher](https://microrack.org/resources/flasher)
+
 1. reset button
 2. digital IO (Do not connect microrack signals!)
 3. digital IO (Do not connect microrack signals!)
@@ -16,10 +18,6 @@
 12. encoder + push button (enc. pins 34, 35, button pin 39)
 13. push button (pin 38)
 14. USB type-C for firmware update and serial connection (on bottom side)
-
-## Firmware Flasher
-
-https://microrack.org/resources/flasher
 
 ## Description
 
