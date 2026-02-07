@@ -17,6 +17,10 @@
 13. push button (pin 38)
 14. USB type-C for firmware update and serial connection (on bottom side)
 
+## Firmware Flasher
+
+https://microrack.org/resources/flasher
+
 ## Description
 
 ESP32-D0 based programmable module with 4 MB flash, MIDI input, analog I/O, and user interface.
