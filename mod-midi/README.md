@@ -56,7 +56,11 @@ Some ESP32 pins are directly exposed without any protection circuitry. Only 0–
 
 CP2102 USB-UART converter connected to the main ESP32 UART. DTR/RTS lines are wired for automatic bootloader mode entry via esptool/Arduino IDE. Use for firmware updates and serial communication.
 
-[Web Firmware Flasher](https://microrack.org/resources/flasher) *(works **only in chrome-based** browsers)*
+### Firmware
+
+Firmware source code and releases are available in the [MOD-ESP32-FW repository](https://github.com/microrack/MOD-ESP32-FW).
+
+You can flash the firmware using PlatformIO or use the [online flasher](https://microrack.org/resources/flasher) *(works **only in chrome-based** browsers)*.
 
 ### Wireless
 
