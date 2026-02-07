@@ -1,6 +1,6 @@
 # rack chassis
 
-<img src="chassis-f-top.png" width="500">
+<img src="chassis-f-top.png" width="600">
 
 ## Interface
 
@@ -16,7 +16,7 @@
 10. Eurorack 16-pin connectors (×2) for providing power to other modules
 11. Eurorack 10-pin connector for powering chassis from Eurorack bus board
 
-<img src="chassis-f-bottom.png" width="500">
+<img src="chassis-f-bottom.png" width="600">
 
 
 ## Overview
