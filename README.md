@@ -36,6 +36,11 @@ MICRORACK modules are compact synthesizer building blocks following the [MICRORA
 - [**mod-midi**](mod-midi/) - MIDI-CV Interface wi Osciloscope mode
 - [**mod-jacket**](mod-jacket/) - 3.5mm Jacks for Eurorack and more
 
+## Power & Chassis
+
+- [**mod-pwr**](mod-pwr/) - Power Module
+- [**mod-chassis**](mod-chassis/) - Eurorack/Standalone Chassis
+
 ## Additional Resources
 
 > **Source Repository**
