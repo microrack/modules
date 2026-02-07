@@ -40,6 +40,7 @@ The **depth knob** is an attenuverter that controls how much the CV affects the 
 
 540 mW
 
-## Schematic
+## Links
 
-[Schematic](mod-vcf-1.1.pdf)
+- [Schematic](mod-vcf-1.1.pdf)
+- [Product page](https://microrack.org/market/products/mod-vcf)

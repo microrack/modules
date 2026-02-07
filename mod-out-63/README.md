@@ -27,6 +27,7 @@ The module can operate in two modes, selected by a switch:
 
 780 mW
 
-## Schematic
+## Links
 
-[Schematic](mod-out-1.2.pdf)
+- [Schematic](mod-out-1.2.pdf)
+- [Product page](https://microrack.org/market/products/mod-out-63)

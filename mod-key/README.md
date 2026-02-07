@@ -16,10 +16,11 @@ Connect an alligator clip wire or male-female jumper to the +5V pins. Now you ca
 
 Each pad is also connected to pins, allowing you to connect external gate/trigger sources to activate notes as if you were playing them by hand.
 
-## Schematic
-
-[Schematic](mod-key-1.1.pdf)
-
 ## Power consumption
 
 300 mW
+
+## Links
+
+- [Schematic](mod-key-1.1.pdf)
+- [Product page](https://microrack.org/market/products/mod-key)

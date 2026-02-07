@@ -31,3 +31,8 @@ The **envelope follower output [8]** provides the detected envelope signal, whic
 ## Power consumption
 
 300 mW
+
+## Links
+
+- [Schematic](mod-comp-1.1.pdf)
+- [Product page](https://microrack.org/market/products/mod-comp)

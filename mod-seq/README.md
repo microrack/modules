@@ -58,6 +58,7 @@ Multiple sequencers can be connected via the **chain connector** to extend the s
 
 420 mW
 
-## Schematic
+## Links
 
-[Schematic](mod-seq-1.3.pdf)
+- [Schematic](mod-seq-1.3.pdf)
+- [Product page](https://microrack.org/market/products/mod-seq)

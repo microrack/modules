@@ -24,3 +24,8 @@ The bias parameter has a **CV input**, allowing dynamic modulation of the distor
 ## Power consumption
 
 348 mW
+
+## Links
+
+- [Schematic](mod-sat-1.0.pdf)
+- [Product page](https://microrack.org/market/products/mod-sat)

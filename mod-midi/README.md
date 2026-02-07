@@ -70,6 +70,7 @@ PCB antenna for WiFi and Bluetooth.
 
 660 mW
 
-## Schematic
+## Links
 
-[Schematic](mod-esp-1.2.pdf)
+- [Schematic](mod-esp-1.2.pdf)
+- [Product page](https://microrack.org/market/products/mod-esp32)

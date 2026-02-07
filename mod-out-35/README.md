@@ -40,6 +40,7 @@ For maximum speaker volume, use stereo mode and route your signal to the right c
 
 1740 mW
 
-## Schematic
+## Links
 
-[Schematic](mod-out-1.2.pdf)
+- [Schematic](mod-out-1.2.pdf)
+- [Product page](https://microrack.org/market/products/mod-out-35)

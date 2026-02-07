@@ -109,8 +109,9 @@ The chassis has LED indicators for each power rail (+12V, +5V, -12V) for each br
 4. Check for short circuits or incorrect connections
 5. Verify that the power-bridging module is properly connected between chassis terminals and breadboard
 
-## Schematic
+## Links
 
 - [Schematic B](mod-chassis-b-1.1.pdf)
 - [Schematic F](mod-chassis-f-1.2.pdf)
+- [Product page](https://microrack.org/market/products/add-rc)
 

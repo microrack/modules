@@ -15,6 +15,7 @@ Use it to send signals from microrack to a modular system, or to receive signals
 
 24 mW
 
-## Schematic
+## Links
 
-[Schematic](mod-jacket-1.0.pdf)
+- [Schematic](mod-jacket-1.0.pdf)
+- [Product page](https://microrack.org/market/products/mod-jacket)

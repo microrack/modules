@@ -72,6 +72,7 @@ The **sync input** resets the oscillator's waveform cycle when it receives a tri
 
 732 mW
 
-## Schematic
+## Links
 
-[Schematic](mod-vco-1.2.pdf)
+- [Schematic](mod-vco-1.2.pdf)
+- [Product page](https://microrack.org/market/products/mod-vco)
