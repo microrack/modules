@@ -2,15 +2,15 @@
 
 ## Overview
 
-The chassis is a baseboard (not a module) that provides power distribution for two independent breadboards. It functions similarly to the power module but is designed as a permanent mounting solution for your modular system.
+The chassis is a baseboard that provides power distribution for two independent breadboards. It functions similar to the power module but is designed as a permanent mounting solution for your modular system.
+
+<img src="chassis_assembly.png" width="400">
 
 ### Assembly
 
-The chassis can be used as a standard Eurorack module or as a standalone portable unit.
+The chassis can be used as a standard Eurorack module or as a standalone portable unit. For standalone use secure the backplate with M3 screws and attach rubber pads (do not overtighten the screws).
 
-For standalone use secure the backplate with M3 screws and attach rubber pads (do not overtighten the screws).
-
-<img src="chassis_assembly.png" width="400">
+<img src="chassis_usage.png" width="400">
 
 ### Usage
 
@@ -18,7 +18,7 @@ For standalone use secure the backplate with M3 screws and attach rubber pads (d
 2. Place I/O modules on the edges to connect the breadboard and the chassis.
 3. Power the chassis via the USB‑C, DC jack, or Eurorack connectors.
 
-<img src="chassis_usage.png" width="400">
+<img src="chassis-f-top.png" width="355">
 
 ## Interface
 
@@ -33,8 +33,6 @@ For standalone use secure the backplate with M3 screws and attach rubber pads (d
 9. Eurorack mounting holes
 10. Eurorack 16-pin connectors (×2) for providing power to other modules
 11. Eurorack 10-pin connector for powering chassis from Eurorack bus board
-
-<img src="chassis-f-top.png" width="355">
 
 <img src="chassis-f-bottom.png" width="355">
 
