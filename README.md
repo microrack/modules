@@ -8,38 +8,38 @@ MICRORACK modules are compact synthesizer building blocks following the [MICRORA
 
 ## Generators
 
-- [**mod-vco**](mod-vco/) - Voltage Controlled Oscillator with LFO mode
-- [**mod-noise**](mod-noise/) - Noise Generator with Sample/Track & Hold
-- [**mod-env**](mod-env/) - Envelope Generator
-- [**mod-seq**](mod-seq/) - 4-Step Sequencer
+- [**oscillator**](mod-vco/) - Voltage Controlled Oscillator with LFO mode
+- [**noise + s&h**](mod-noise/) - Noise Generator with Sample/Track & Hold
+- [**envelope**](mod-env/) - Envelope Generator
+- [**sequencer**](mod-seq/) - 4-Step Sequencer
 
 ## Sound Processing
 
-- [**mod-vcf**](mod-vcf/) - Voltage Controlled Filter
-- [**mod-delay**](mod-delay/) - Wild  PT Delay
-- [**mod-eq**](mod-eq/) - 3 Line Equalizer
-- [**mod-comp**](mod-comp/) - Compressor wit Sidechain
-- [**mod-sat**](mod-sat/) - Saturator / Distortion
-- [**mod-lpg**](mod-lpg/) - Low Pass Gate
+- [**filter**](mod-vcf/) - Voltage Controlled Filter
+- [**delay**](mod-delay/) - Wild  PT Delay
+- [**equalizer**](mod-eq/) - 3 Line Equalizer
+- [**compressor**](mod-comp/) - Compressor wit Sidechain
+- [**saturator**](mod-sat/) - Saturator / Distortion
+- [**lowpass gate**](mod-lpg/) - Low Pass Gate
 
 ## Utilities
 
-- [**mod-vca**](mod-vca/) - VCA Mixer
-- [**mod-clk**](mod-clk/) - Clock Counter
-- [**mod-key**](mod-key/) - Stylus Keyboard
+- [**vca mixer**](mod-vca/) - VCA Mixer
+- [**counter**](mod-clk/) - Clock Counter
+- [**stylo**](mod-key/) - Stylus Keyboard
 
 ## I/O & MIDI
 
-- [**mod-in-63**](mod-in-63/) - 6.3mm jack Input
-- [**mod-out-35**](mod-out-35/) - 3.5mm jack Output
-- [**mod-out-63**](mod-out-63/) - 6.3mm jack Output
-- [**mod-midi**](mod-midi/) - MIDI-CV Interface wi Osciloscope mode
-- [**mod-jacket**](mod-jacket/) - 3.5mm Jacks for Eurorack and more
+- [**input 6.3**](mod-in-63/) - 6.3mm jack Input
+- [**output 3.5**](mod-out-35/) - 3.5mm jack Output
+- [**output 6.3**](mod-out-63/) - 6.3mm jack Output
+- [**midi→cv**](mod-midi/) - MIDI-CV Interface wi Osciloscope mode
+- [**jacket 3.5**](mod-jacket/) - 3.5mm Jacks for Eurorack and more
 
 ## Power & Chassis
 
-- [**mod-pwr**](mod-pwr/) - Power Module
-- [**mod-chassis**](mod-chassis/) - Eurorack/Standalone Chassis
+- [**power**](mod-pwr/) - Power Module
+- [**rack chassis**](mod-chassis/) - Eurorack/Standalone Chassis
 
 ## Additional Resources
 
