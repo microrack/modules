@@ -42,6 +42,6 @@ For maximum speaker volume, use stereo mode and route your signal to the right c
 
 ## Links
 
-- [Schematic](mod-out-1.2.pdf)
-- [Product page](https://microrack.org/market/products/mod-out-35)
-- [Forum discussion](https://forum.microrack.org/t/output-jack-module-3-5-and-6-3/155/1)
+- 🔌 [Schematic](mod-out-1.2.pdf)
+- 🛒 [Product page](https://microrack.org/market/products/mod-out-35)
+- 💬 [Forum discussion](https://forum.microrack.org/t/output-jack-module-3-5-and-6-3/155/1)

@@ -41,6 +41,6 @@ A **touch pad** is provided for manually injecting a track gate, allowing hands-
 
 ## Links
 
-- [Schematic](mod-noise-1.3.pdf)
-- [Product page](https://microrack.org/market/products/mod-noise)
-- [Forum discussion](https://forum.microrack.org/t/noise-s-h/207/1)
+- 🔌 [Schematic](mod-noise-1.3.pdf)
+- 🛒 [Product page](https://microrack.org/market/products/mod-noise)
+- 💬 [Forum discussion](https://forum.microrack.org/t/noise-s-h/207/1)

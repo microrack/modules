@@ -27,6 +27,6 @@ The bias parameter has a **CV input**, allowing dynamic modulation of the distor
 
 ## Links
 
-- [Schematic](mod-sat-1.0.pdf)
-- [Product page](https://microrack.org/market/products/mod-sat)
-- [Forum discussion](https://forum.microrack.org/t/zvukofor-collaborative-modules/201/1)
+- 🔌 [Schematic](mod-sat-1.0.pdf)
+- 🛒 [Product page](https://microrack.org/market/products/mod-sat)
+- 💬 [Forum discussion](https://forum.microrack.org/t/zvukofor-collaborative-modules/201/1)

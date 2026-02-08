@@ -42,6 +42,6 @@ The **depth knob** is an attenuverter that controls how much the CV affects the 
 
 ## Links
 
-- [Schematic](mod-vcf-1.1.pdf)
-- [Product page](https://microrack.org/market/products/mod-vcf)
-- [Forum discussion](https://forum.microrack.org/t/voltage-controlled-filter-vcf/82/1)
+- 🔌 [Schematic](mod-vcf-1.1.pdf)
+- 🛒 [Product page](https://microrack.org/market/products/mod-vcf)
+- 💬 [Forum discussion](https://forum.microrack.org/t/voltage-controlled-filter-vcf/82/1)

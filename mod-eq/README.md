@@ -19,6 +19,6 @@ Classic three-band equalizer with low, mid, and high frequency controls for shap
 
 ## Links
 
-- [Schematic](mod-eq-1.1.pdf)
-- [Product page](https://microrack.org/market/products/mod-eq)
-- [Forum discussion](https://forum.microrack.org/t/zvukofor-collaborative-modules/201/1)
+- 🔌 [Schematic](mod-eq-1.1.pdf)
+- 🛒 [Product page](https://microrack.org/market/products/mod-eq)
+- 💬 [Forum discussion](https://forum.microrack.org/t/zvukofor-collaborative-modules/201/1)

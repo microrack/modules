@@ -31,6 +31,6 @@ The send/return pair acts as an insert point for the feedback loop. When nothing
 
 ## Links
 
-- [Schematic](mod-delay-1.1.pdf)
-- [Product page](https://microrack.org/market/products/mod-delay)
-- [Forum discussion](https://forum.microrack.org/t/lo-fi-delay-module/88/1)
+- 🔌 [Schematic](mod-delay-1.1.pdf)
+- 🛒 [Product page](https://microrack.org/market/products/mod-delay)
+- 💬 [Forum discussion](https://forum.microrack.org/t/lo-fi-delay-module/88/1)
