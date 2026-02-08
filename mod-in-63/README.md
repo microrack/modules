@@ -36,6 +36,8 @@ Each channel has 3 output pins and a signal level indicator.
 
 348 mW
 
-## Schematic
+## Links
 
-[Schematic](mod-in-63-1.1.pdf)
+- 🔌 [Schematic](mod-in-63-1.1.pdf)
+- 🛒 [Product page](https://microrack.org/market/products/mod-in-63)
+- 💬 [Forum discussion](https://forum.microrack.org/t/input-6-3-jack/204/1)

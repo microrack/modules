@@ -31,6 +31,8 @@ Step outputs are active-low diodes with pull-down resistors, which means they ca
 
 300 mW
 
-## Schematic
+## Links
 
-[Schematic](mod-clk-1.1.pdf)
+- 🔌 [Schematic](mod-clk-1.1.pdf)
+- 🛒 [Product page](https://microrack.org/market/products/mod-clk)
+- 💬 [Forum discussion](https://forum.microrack.org/t/clock-counter/209/1)

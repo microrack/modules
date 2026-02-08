@@ -29,6 +29,8 @@ The send/return pair acts as an insert point for the feedback loop. When nothing
 
 852 mW
 
-## Schematic
+## Links
 
-[Schematic](mod-delay-1.1.pdf)
+- 🔌 [Schematic](mod-delay-1.1.pdf)
+- 🛒 [Product page](https://microrack.org/market/products/mod-delay)
+- 💬 [Forum discussion](https://forum.microrack.org/t/lo-fi-delay-module/88/1)

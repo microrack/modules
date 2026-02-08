@@ -36,6 +36,8 @@ The module provides **+5V** and **−5V** reference outputs, useful for offsetti
 
 1020 mW
 
-## Schematic
+## Links
 
-[Schematic](mod-mix-1.2.pdf)
+- 🔌 [Schematic](mod-mix-1.2.pdf)
+- 🛒 [Product page](https://microrack.org/market/products/mod-mix)
+- 💬 [Forum discussion](https://forum.microrack.org/t/mixer-3xvca/208/1)

@@ -13,10 +13,12 @@
 
 Classic three-band equalizer with low, mid, and high frequency controls for shaping the tonal balance of your signal. Each band can be boosted or cut to fine-tune the mix.
 
-## Schematic
-
-[Schematic](mod-eq-1.1.pdf)
-
 ## Power consumption
 
 216 mW
+
+## Links
+
+- 🔌 [Schematic](mod-eq-1.1.pdf)
+- 🛒 [Product page](https://microrack.org/market/products/mod-eq)
+- 💬 [Forum discussion](https://forum.microrack.org/t/eq-by-zvukofor/463/1)

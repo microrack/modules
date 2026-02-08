@@ -28,10 +28,12 @@ The gate can be controlled in three ways:
 - **LPG mode**: more resonance, classic lowpass gate sound
 - **Combo mode**: closer to VCA behavior with more high frequencies passing through
 
-## Schematic
-
-[Schematic](mod-lpg-1.2.pdf)
-
 ## Power consumption
 
 384 mW
+
+## Links
+
+- 🔌 [Schematic](mod-lpg-1.2.pdf)
+- 🛒 [Product page](https://microrack.org/market/products/mod-lpg)
+- 💬 [Forum discussion](https://forum.microrack.org/t/lowpass-gate-collaborative-module/206/1)
