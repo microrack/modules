@@ -19,4 +19,4 @@ Use it to send signals from microrack to a modular system, or to receive signals
 
 - 🔌 [Schematic](mod-jacket-1.0.pdf)
 - 🛒 [Product page](https://microrack.org/market/products/mod-jacket)
-- 💬 [Forum discussion](https://forum.microrack.org/t/utility-modules-jack-power-etc/93/1)
+- 💬 [Forum discussion](https://forum.microrack.org/t/jacket-module/466/1)
