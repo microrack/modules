@@ -36,3 +36,4 @@ The gate can be controlled in three ways:
 
 - [Schematic](mod-lpg-1.2.pdf)
 - [Product page](https://microrack.org/market/products/mod-lpg)
+- [Forum discussion](https://forum.microrack.org/t/lowpass-gate-collaborative-module/206/1)

@@ -114,4 +114,5 @@ The chassis has LED indicators for each power rail (+12V, +5V, -12V) for each br
 - [Schematic B](mod-chassis-b-1.1.pdf)
 - [Schematic F](mod-chassis-f-1.2.pdf)
 - [Product page](https://microrack.org/market/products/add-rc)
+- [Forum discussion](https://forum.microrack.org/t/rack-device-portable-chassis-compatible-with-eurorack-system/67/1)
 

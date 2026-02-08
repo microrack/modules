@@ -24,3 +24,4 @@ Each pad is also connected to pins, allowing you to connect external gate/trigge
 
 - [Schematic](mod-key-1.1.pdf)
 - [Product page](https://microrack.org/market/products/mod-key)
+- [Forum discussion](https://forum.microrack.org/t/stylus-keyboard/205/1)

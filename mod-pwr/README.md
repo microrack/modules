@@ -80,3 +80,4 @@ The module has LED indicators for each power rail (+12V, +5V, -12V). If any LED 
 
 - [Schematic](mod-pwr-1.3.pdf)
 - [Product page](https://microrack.org/market/products/mod-pwr)
+- [Forum discussion](https://forum.microrack.org/t/utility-modules-jack-power-etc/93/1)

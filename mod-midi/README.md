@@ -74,3 +74,4 @@ PCB antenna for WiFi and Bluetooth.
 
 - [Schematic](mod-esp-1.2.pdf)
 - [Product page](https://microrack.org/market/products/mod-esp32)
+- [Forum discussion](https://forum.microrack.org/t/esp32-module/203/1)

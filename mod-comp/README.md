@@ -36,3 +36,4 @@ The **envelope follower output [8]** provides the detected envelope signal, whic
 
 - [Schematic](mod-comp-1.1.pdf)
 - [Product page](https://microrack.org/market/products/mod-comp)
+- [Forum discussion](https://forum.microrack.org/t/zvukofor-collaborative-modules/201/1)

@@ -76,3 +76,4 @@ The **sync input** resets the oscillator's waveform cycle when it receives a tri
 
 - [Schematic](mod-vco-1.2.pdf)
 - [Product page](https://microrack.org/market/products/mod-vco)
+- [Forum discussion](https://forum.microrack.org/t/oscillator-vco-lfo/70/1)

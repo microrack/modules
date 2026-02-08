@@ -62,3 +62,4 @@ Multiple sequencers can be connected via the **chain connector** to extend the s
 
 - [Schematic](mod-seq-1.3.pdf)
 - [Product page](https://microrack.org/market/products/mod-seq)
+- [Forum discussion](https://forum.microrack.org/t/sequencer/202/1)

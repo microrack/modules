@@ -40,3 +40,4 @@ The module provides **+5V** and **−5V** reference outputs, useful for offsetti
 
 - [Schematic](mod-mix-1.2.pdf)
 - [Product page](https://microrack.org/market/products/mod-mix)
+- [Forum discussion](https://forum.microrack.org/t/mixer-3xvca/208/1)
